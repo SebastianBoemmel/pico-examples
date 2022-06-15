@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/home/boemmelsebastian/pico/pico-examples/build/adc/dma_capture/CMakeFiles/PioasmBuild
+/home/boemmelsebastian/pico/pico-examples/build/adc/dma_capture/CMakeFiles/PioasmBuild.rule
+/home/boemmelsebastian/pico/pico-examples/build/adc/dma_capture/CMakeFiles/PioasmBuild-complete.rule
+/home/boemmelsebastian/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/home/boemmelsebastian/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/home/boemmelsebastian/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/home/boemmelsebastian/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule
+/home/boemmelsebastian/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/home/boemmelsebastian/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/home/boemmelsebastian/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
