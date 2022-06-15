@@ -1226,9 +1226,9 @@ Discarded input sections
                 0x0000000000000000       0x44 CMakeFiles/host_cdc_msc_hid.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .text.board_uart_write
                 0x0000000000000000       0x78 CMakeFiles/host_cdc_msc_hid.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccO5Y9zD.o
- .data          0x0000000000000000        0x0 /tmp/ccO5Y9zD.o
- .bss           0x0000000000000000        0x0 /tmp/ccO5Y9zD.o
+ .text          0x0000000000000000        0x0 /tmp/ccgeiPfe.o
+ .data          0x0000000000000000        0x0 /tmp/ccgeiPfe.o
+ .bss           0x0000000000000000        0x0 /tmp/ccgeiPfe.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o)
@@ -1411,7 +1411,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccO5Y9zD.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccgeiPfe.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3175,7 +3175,7 @@ LOAD CMakeFiles/host_cdc_msc_hid.dir/home/boemmelsebastian/pico/pico-sdk/lib/tin
 LOAD CMakeFiles/host_cdc_msc_hid.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD CMakeFiles/host_cdc_msc_hid.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/host_cdc_msc_hid.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
-LOAD /tmp/ccO5Y9zD.o
+LOAD /tmp/ccgeiPfe.o
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3296,7 +3296,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000800       0x2c CMakeFiles/host_cdc_msc_hid.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .ARM.attributes
-                0x000000000000082c       0x22 /tmp/ccO5Y9zD.o
+                0x000000000000082c       0x22 /tmp/ccgeiPfe.o
  .ARM.attributes
                 0x000000000000084e       0x1e /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

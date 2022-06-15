@@ -1151,9 +1151,9 @@ Discarded input sections
                 0x0000000000000000       0x6b CMakeFiles/adc_dma_capture.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .rodata.multicore_lockout_end_block_until.str1.4
                 0x0000000000000000       0x3c CMakeFiles/adc_dma_capture.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccSlXxe5.o
- .data          0x0000000000000000        0x0 /tmp/ccSlXxe5.o
- .bss           0x0000000000000000        0x0 /tmp/ccSlXxe5.o
+ .text          0x0000000000000000        0x0 /tmp/cceNapcs.o
+ .data          0x0000000000000000        0x0 /tmp/cceNapcs.o
+ .bss           0x0000000000000000        0x0 /tmp/cceNapcs.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o)
@@ -1374,7 +1374,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccSlXxe5.o
+ .boot2         0x0000000010000000      0x100 /tmp/cceNapcs.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2433,7 +2433,7 @@ LOAD CMakeFiles/adc_dma_capture.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_
 LOAD CMakeFiles/adc_dma_capture.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 LOAD CMakeFiles/adc_dma_capture.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 LOAD CMakeFiles/adc_dma_capture.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-LOAD /tmp/ccSlXxe5.o
+LOAD /tmp/cceNapcs.o
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2536,7 +2536,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000674       0x2c CMakeFiles/adc_dma_capture.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .ARM.attributes
-                0x00000000000006a0       0x22 /tmp/ccSlXxe5.o
+                0x00000000000006a0       0x22 /tmp/cceNapcs.o
  .ARM.attributes
                 0x00000000000006c2       0x1e /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

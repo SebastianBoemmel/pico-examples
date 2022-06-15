@@ -1229,9 +1229,9 @@ Discarded input sections
                 0x0000000000000000       0xa2 CMakeFiles/tinyusb_host_cdc_msc_hid.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .text.tu_fifo_get_write_info
                 0x0000000000000000       0x7a CMakeFiles/tinyusb_host_cdc_msc_hid.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccjovMa2.o
- .data          0x0000000000000000        0x0 /tmp/ccjovMa2.o
- .bss           0x0000000000000000        0x0 /tmp/ccjovMa2.o
+ .text          0x0000000000000000        0x0 /tmp/ccqZkr3t.o
+ .data          0x0000000000000000        0x0 /tmp/ccqZkr3t.o
+ .bss           0x0000000000000000        0x0 /tmp/ccqZkr3t.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o)
@@ -1414,7 +1414,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccjovMa2.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccqZkr3t.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3191,7 +3191,7 @@ LOAD CMakeFiles/tinyusb_host_cdc_msc_hid.dir/home/boemmelsebastian/pico/pico-sdk
 LOAD CMakeFiles/tinyusb_host_cdc_msc_hid.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.obj
 LOAD CMakeFiles/tinyusb_host_cdc_msc_hid.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD CMakeFiles/tinyusb_host_cdc_msc_hid.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-LOAD /tmp/ccjovMa2.o
+LOAD /tmp/ccqZkr3t.o
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3314,7 +3314,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000000000000082c       0x2c CMakeFiles/tinyusb_host_cdc_msc_hid.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x0000000000000858       0x22 /tmp/ccjovMa2.o
+                0x0000000000000858       0x22 /tmp/ccqZkr3t.o
  .ARM.attributes
                 0x000000000000087a       0x1e /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
