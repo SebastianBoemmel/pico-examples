@@ -383,8 +383,8 @@ Disassembly of section .text:
 10000372:	2680      	movs	r6, #128	; 0x80
 10000374:	04b6      	lsls	r6, r6, #18
 10000376:	616e      	str	r6, [r5, #20]
-10000378:	24af      	movs	r4, #175	; 0xaf
-1000037a:	0064      	lsls	r4, r4, #1
+10000378:	24fa      	movs	r4, #250	; 0xfa
+1000037a:	00a4      	lsls	r4, r4, #2
 1000037c:	0020      	movs	r0, r4
 1000037e:	f000 fd3f 	bl	10000e00 <sleep_ms>
 10000382:	61ae      	str	r6, [r5, #24]
