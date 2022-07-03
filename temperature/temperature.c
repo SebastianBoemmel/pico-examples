@@ -27,8 +27,10 @@ int main(void){
     
     if(temp > (float)22.0){
         gpio_put(25, 1);
+        printf("LED ON!\n");
     }else {
         gpio_put(25, 0);
+        printf("LED OFF!\n");
     }
     
     sleep_ms(1000);
