@@ -3841,7 +3841,7 @@
 				{
 					"directoryIndex" : 71,
 					"id" : "ELF2UF2Build::@655f412016ec51306758",
-					"jsonFile" : "target-ELF2UF2Build-Debug-18f866c82be3fdff2dc8.json",
+					"jsonFile" : "target-ELF2UF2Build-Debug-6158ca1b18e9ef743f4c.json",
 					"name" : "ELF2UF2Build",
 					"projectIndex" : 0
 				},
@@ -3876,7 +3876,7 @@
 				{
 					"directoryIndex" : 71,
 					"id" : "blink::@655f412016ec51306758",
-					"jsonFile" : "target-blink-Debug-6f87ec3e285f0ce71f9d.json",
+					"jsonFile" : "target-blink-Debug-a4cbb1f2f4c680356c87.json",
 					"name" : "blink",
 					"projectIndex" : 0
 				},

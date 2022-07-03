@@ -186,6 +186,492 @@ blink.c.s:
 	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/blink.c.s
 .PHONY : blink.c.s
 
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.obj: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.i: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.s: home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
 home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 .PHONY : home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.obj
@@ -491,6 +977,33 @@ home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj:
 home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
 	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
@@ -861,6 +1374,33 @@ home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shi
 	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
 home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 .PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
@@ -1149,32 +1689,86 @@ home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
-.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
 
 # target to build an object file
-home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
-home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
 
 # target to preprocess a source file
-home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
 
 # target to generate assembly for a file
-home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
@@ -1203,6 +1797,33 @@ home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+
+# target to build an object file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+
+# target to preprocess a source file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+
+# target to generate assembly for a file
+home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	cd /home/boemmelsebastian/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f blink/CMakeFiles/blink.dir/build.make blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1216,6 +1837,60 @@ help:
 	@echo "... blink.obj"
 	@echo "... blink.i"
 	@echo "... blink.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.s"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.s"
@@ -1250,6 +1925,9 @@ help:
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
@@ -1291,6 +1969,9 @@ help:
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
@@ -1323,12 +2004,21 @@ help:
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
-	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
-	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
+	@echo "... home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
 .PHONY : help
 
 

@@ -573,18 +573,317 @@ blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pi
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: blink/CMakeFiles/blink.dir/flags.make
-blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
-blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 # Object files for target blink
 blink_OBJECTS = \
@@ -633,7 +932,30 @@ blink_OBJECTS = \
 "CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
+"CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 
 # External object files for target blink
 blink_EXTERNAL_OBJECTS =
@@ -683,11 +1005,34 @@ blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/build.make
 blink/blink.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 blink/blink.elf: blink/CMakeFiles/blink.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable blink.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable blink.elf"
 	cd /home/boemmelsebastian/pico/pico-examples/build/blink && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blink.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-objcopy -Oihex /home/boemmelsebastian/pico/pico-examples/build/blink/blink.elf blink.hex
 	cd /home/boemmelsebastian/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-objcopy -Obinary /home/boemmelsebastian/pico/pico-examples/build/blink/blink.elf blink.bin
