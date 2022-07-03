@@ -411,6 +411,8 @@ hardware/structs/padsbank0.h
 /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/hardware/structs/padsbank0.h
 hardware/structs/iobank0.h
 /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/hardware/structs/iobank0.h
+hardware/irq.h
+/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/hardware/irq.h
 
 /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 pico.h
@@ -431,6 +433,8 @@ hardware/platform_defs.h
 /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/hardware/platform_defs.h
 hardware/structs/scb.h
 /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/hardware/structs/scb.h
+hardware/claim.h
+/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/hardware/claim.h
 pico/mutex.h
 /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/pico/mutex.h
 pico/assert.h
@@ -665,6 +669,10 @@ pico/runtime.h
 /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 hardware/platform_defs.h
 /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/hardware/platform_defs.h
+hardware/regs/addressmap.h
+/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/hardware/regs/addressmap.h
+hardware/regs/sio.h
+/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/hardware/regs/sio.h
 sys/cdefs.h
 -
 pico/types.h

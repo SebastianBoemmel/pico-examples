@@ -18,6 +18,14 @@ int main(void){
     float result = raw * conversion_factor;
     float temp = 27 - (result -0.706)/0.001721;
     printf("Temp = %f C\n", temp);
+    
+    if(temp >= 20){
+        gpio_put(25, 1);
+    }else {
+        gpio_put(25, 0);
+    }
+    
     sleep_ms(1000);
+
     }
 }

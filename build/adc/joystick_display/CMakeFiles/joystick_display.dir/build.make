@@ -154,183 +154,9 @@ adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
 	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-
-adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-
 adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
 adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -343,8 +169,182 @@ adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/
 
 adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
 adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/adc/joystick_display && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: adc/joystick_display/CMakeFiles/joystick_display.dir/flags.make
 adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
@@ -607,22 +607,22 @@ joystick_display_OBJECTS = \
 "CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
 "CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
+"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
+"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
+"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
 "CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj" \
 "CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
 "CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
 "CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
 "CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
+"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
+"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
+"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
 "CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
 "CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
 "CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
 "CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
@@ -658,22 +658,22 @@ adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joyst
 adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
 adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj
+adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 adc/joystick_display/joystick_display.elf: adc/joystick_display/CMakeFiles/joystick_display.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj

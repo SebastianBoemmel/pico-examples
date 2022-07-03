@@ -157,6 +157,10 @@ pico.h
 /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 hardware/platform_defs.h
 /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/hardware/platform_defs.h
+hardware/regs/addressmap.h
+/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/hardware/regs/addressmap.h
+hardware/regs/sio.h
+/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/hardware/regs/sio.h
 sys/cdefs.h
 -
 pico/types.h

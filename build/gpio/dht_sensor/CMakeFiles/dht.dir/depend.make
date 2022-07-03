@@ -27,6 +27,7 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
@@ -42,6 +43,8 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
@@ -92,6 +95,8 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -124,6 +129,8 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -138,6 +145,8 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -152,6 +161,8 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
@@ -189,7 +200,9 @@ gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-s
 gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
@@ -203,6 +216,7 @@ gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-s
 gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
 gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
 gpio/dht_sensor/CMakeFiles/dht.dir/dht.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -340,6 +354,7 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/commo
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
@@ -358,6 +373,8 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/commo
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/include/pico/util/datetime.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: generated/pico_base/pico/config_autogen.h
@@ -372,6 +389,8 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/commo
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/include/pico/util/pheap.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: generated/pico_base/pico/config_autogen.h
@@ -506,6 +525,7 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
@@ -525,6 +545,7 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h
@@ -591,6 +612,7 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
@@ -616,6 +638,7 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
@@ -635,6 +658,7 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h
@@ -655,6 +679,7 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h
@@ -674,6 +699,8 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
@@ -688,6 +715,8 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
@@ -699,6 +728,8 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h
@@ -711,6 +742,8 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
@@ -722,6 +755,8 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/include/pico/float.h
@@ -759,6 +794,7 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
@@ -775,6 +811,8 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
@@ -831,6 +869,8 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/boot_stage2/include/boot_stage2/config.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -882,7 +922,9 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
@@ -894,6 +936,7 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
@@ -919,7 +962,9 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
@@ -937,6 +982,7 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h

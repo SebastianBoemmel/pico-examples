@@ -154,183 +154,9 @@ timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pi
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
 	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-
-timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-
 timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
 timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -343,8 +169,182 @@ timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pi
 
 timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
 timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/timer/timer_lowlevel && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/flags.make
 timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
@@ -594,22 +594,22 @@ timer_lowlevel_OBJECTS = \
 "CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
 "CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
+"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
+"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
+"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
 "CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj" \
 "CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
 "CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
 "CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
 "CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
+"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
+"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
+"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
 "CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
 "CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
 "CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
 "CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
@@ -644,22 +644,22 @@ timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_l
 timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
 timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj
+timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 timer/timer_lowlevel/timer_lowlevel.elf: timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj

@@ -27,6 +27,7 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
@@ -42,6 +43,8 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
@@ -92,6 +95,8 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -124,6 +129,8 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -138,6 +145,8 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -152,6 +161,8 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
@@ -190,7 +201,9 @@ adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebas
 adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
 adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
@@ -206,6 +219,7 @@ adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebas
 adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h
 adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
 adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
 adc/adc_console/CMakeFiles/adc_console.dir/adc_console.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -343,6 +357,7 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
@@ -361,6 +376,8 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/include/pico/util/datetime.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: generated/pico_base/pico/config_autogen.h
@@ -375,6 +392,8 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/include/pico/util/pheap.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: generated/pico_base/pico/config_autogen.h
@@ -412,7 +431,9 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
@@ -427,6 +448,7 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: generated/pico_base/pico/config_autogen.h
@@ -538,6 +560,7 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
@@ -557,6 +580,7 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h
@@ -623,6 +647,7 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
@@ -648,6 +673,7 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
@@ -667,6 +693,7 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h
@@ -687,6 +714,7 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h
@@ -706,6 +734,8 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
@@ -720,6 +750,8 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
@@ -731,6 +763,8 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h
@@ -743,6 +777,8 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
@@ -754,6 +790,8 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/include/pico/float.h
@@ -791,6 +829,7 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
@@ -807,6 +846,8 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
@@ -863,6 +904,8 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/boot_stage2/include/boot_stage2/config.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -914,7 +957,9 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
@@ -926,6 +971,7 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
@@ -951,7 +997,9 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
@@ -969,6 +1017,7 @@ adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/s
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
 adc/adc_console/CMakeFiles/adc_console.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h

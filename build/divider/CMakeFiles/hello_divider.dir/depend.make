@@ -27,6 +27,7 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
@@ -42,6 +43,8 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
@@ -92,6 +95,8 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -124,6 +129,8 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -138,6 +145,8 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -152,6 +161,8 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
@@ -189,7 +200,9 @@ divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian
 divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
@@ -204,6 +217,7 @@ divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian
 divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/include/hardware/divider.h
 divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
 divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
 divider/CMakeFiles/hello_divider.dir/hello_divider.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -341,6 +355,7 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/com
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
@@ -359,6 +374,8 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/com
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/include/pico/util/datetime.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: generated/pico_base/pico/config_autogen.h
@@ -373,6 +390,8 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/com
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/include/pico/util/pheap.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: generated/pico_base/pico/config_autogen.h
@@ -507,6 +526,7 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
@@ -526,6 +546,7 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h
@@ -592,6 +613,7 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
@@ -617,6 +639,7 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
@@ -636,6 +659,7 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h
@@ -656,6 +680,7 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h
@@ -675,6 +700,8 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
@@ -689,6 +716,8 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
@@ -700,6 +729,8 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h
@@ -712,6 +743,8 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
@@ -723,6 +756,8 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/include/pico/float.h
@@ -760,6 +795,7 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
@@ -776,6 +812,8 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
@@ -832,6 +870,8 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/boot_stage2/include/boot_stage2/config.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -883,7 +923,9 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
@@ -895,6 +937,7 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
@@ -920,7 +963,9 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
@@ -938,6 +983,7 @@ divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
 divider/CMakeFiles/hello_divider.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h

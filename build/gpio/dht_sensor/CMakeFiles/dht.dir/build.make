@@ -154,183 +154,9 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
 	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-
-gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -343,8 +169,182 @@ gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_c
 
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/gpio/dht_sensor && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: gpio/dht_sensor/CMakeFiles/dht.dir/flags.make
 gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
@@ -594,22 +594,22 @@ dht_OBJECTS = \
 "CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
 "CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
+"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
+"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
+"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
 "CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj" \
 "CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
 "CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
 "CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
 "CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
+"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
+"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
+"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
 "CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
 "CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
 "CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
 "CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
@@ -644,22 +644,22 @@ gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastia
 gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
 gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj
+gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 gpio/dht_sensor/dht.elf: gpio/dht_sensor/CMakeFiles/dht.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj

@@ -154,183 +154,9 @@ picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
 	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-
-picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-
 picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
 picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -343,8 +169,182 @@ picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico
 
 picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
 picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/picoboard/blinky && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/flags.make
 picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
@@ -594,22 +594,22 @@ picoboard_blinky_OBJECTS = \
 "CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
 "CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
+"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
+"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
+"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
 "CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj" \
 "CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
 "CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
 "CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
 "CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
+"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
+"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
+"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
 "CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
 "CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
 "CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
 "CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
@@ -644,22 +644,22 @@ picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_bli
 picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
 picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj
+picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 picoboard/blinky/picoboard_blinky.elf: picoboard/blinky/CMakeFiles/picoboard_blinky.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj

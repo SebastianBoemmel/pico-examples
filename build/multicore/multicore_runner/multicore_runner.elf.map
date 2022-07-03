@@ -20,6 +20,10 @@ Archive member included to satisfy reference by file (symbol)
                               /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-callocr.o) (_malloc_r)
 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-mlock.o)
                               /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-mallocr.o) (__malloc_lock)
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-realloc.o)
+                              CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj (realloc)
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o)
+                              /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-realloc.o) (_realloc_r)
 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-sbrkr.o)
                               /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-mallocr.o) (_sbrk_r)
 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
@@ -28,6 +32,8 @@ Archive member included to satisfy reference by file (symbol)
                               /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o) (__register_exitproc)
 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-freer.o)
                               /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-malloc.o) (_free_r)
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-memmove.o)
+                              /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o) (memmove)
 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reent.o)
                               /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-sbrkr.o) (errno)
 
@@ -98,9 +104,9 @@ Discarded input sections
                 0x0000000000000000        0x8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .rodata.__func__.4243
                 0x0000000000000000       0x15 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .rodata.__func__.5002
+ .rodata.__func__.5017
                 0x0000000000000000       0x24 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .rodata.__func__.5012
+ .rodata.__func__.5027
                 0x0000000000000000       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .rodata.multicore_fifo_push_timeout_us.str1.4
                 0x0000000000000000       0x6b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
@@ -114,33 +120,35 @@ Discarded input sections
  .time_critical.sem_available
                 0x0000000000000000        0x6 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .time_critical.sem_acquire_blocking
-                0x0000000000000000       0x42 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+                0x0000000000000000       0x40 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .time_critical.sem_acquire_block_until
-                0x0000000000000000       0x58 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+                0x0000000000000000       0x56 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .time_critical.sem_acquire_timeout_ms
                 0x0000000000000000       0x6c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .time_critical.sem_acquire_timeout_us
                 0x0000000000000000       0x5c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+ .time_critical.sem_try_acquire
+                0x0000000000000000       0x42 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .time_critical.sem_release
                 0x0000000000000000       0x4a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .time_critical.sem_reset
                 0x0000000000000000       0x68 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .rodata.__func__.4243
                 0x0000000000000000       0x15 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
- .rodata.__func__.4695
+ .rodata.__func__.4704
                 0x0000000000000000        0xa CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .rodata.str1.4
                 0x0000000000000000       0xd8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
- .debug_info    0x0000000000000000     0x120d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+ .debug_info    0x0000000000000000     0x140d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .debug_abbrev  0x0000000000000000      0x356 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
- .debug_loc     0x0000000000000000      0xa09 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+ .debug_loc     0x0000000000000000      0xb5c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .debug_aranges
-                0x0000000000000000       0x58 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
- .debug_ranges  0x0000000000000000      0x5c0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
- .debug_line    0x0000000000000000      0x8e3 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
- .debug_str     0x0000000000000000      0x512 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+                0x0000000000000000       0x60 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+ .debug_ranges  0x0000000000000000      0x6c0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+ .debug_line    0x0000000000000000      0x9ee CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+ .debug_str     0x0000000000000000      0x522 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .comment       0x0000000000000000       0x52 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
- .debug_frame   0x0000000000000000       0xd8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+ .debug_frame   0x0000000000000000       0xe8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -162,7 +170,7 @@ Discarded input sections
  .text.spin_lock_is_claimed
                 0x0000000000000000       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .bss.claimed   0x0000000000000000        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .rodata.__func__.4457
+ .rodata.__func__.4460
                 0x0000000000000000        0xf CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .rodata.spin_lock_claim.str1.4
                 0x0000000000000000       0x1f CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -179,7 +187,7 @@ Discarded input sections
                 0x0000000000000000       0x50 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .text.hw_claim_clear
                 0x0000000000000000       0x40 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .rodata.__func__.4474
+ .rodata.__func__.4477
                 0x0000000000000000        0xf CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .rodata.hw_claim_clear.str1.4
                 0x0000000000000000       0x6b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -188,7 +196,7 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .text.rp2040_chip_version
                 0x0000000000000000       0x4c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .rodata.__func__.4348
+ .rodata.__func__.4354
                 0x0000000000000000       0x14 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .rodata.rp2040_chip_version.str1.4
                 0x0000000000000000       0x85 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -227,13 +235,13 @@ Discarded input sections
                 0x0000000000000000       0x14 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.best_effort_wfe_or_timeout
                 0x0000000000000000       0x80 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- .rodata.__func__.6352
+ .rodata.__func__.6357
                 0x0000000000000000       0x17 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- .rodata.__func__.6396
+ .rodata.__func__.6401
                 0x0000000000000000       0x13 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- .rodata.__func__.6419
+ .rodata.__func__.6424
                 0x0000000000000000       0x18 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- .rodata.__func__.6434
+ .rodata.__func__.6439
                 0x0000000000000000       0x19 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.alarm_pool_cancel_alarm.str1.4
                 0x0000000000000000       0x27 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -357,7 +365,7 @@ Discarded input sections
                 0x0000000000000000        0xa CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj
  .text.queue_peek_blocking
                 0x0000000000000000        0xa CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj
- .rodata.__func__.5492
+ .rodata.__func__.5495
                 0x0000000000000000        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj
  .rodata.queue_add_internal.str1.4
                 0x0000000000000000       0x5e CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -396,15 +404,15 @@ Discarded input sections
                 0x0000000000000000       0x7c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .rodata.__func__.4243
                 0x0000000000000000       0x15 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .rodata.__func__.4700
+ .rodata.__func__.4703
                 0x0000000000000000       0x1f CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .rodata.__func__.4716
+ .rodata.__func__.4719
                 0x0000000000000000       0x1a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .rodata.__func__.4737
+ .rodata.__func__.4740
                 0x0000000000000000       0x18 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .rodata.__func__.4746
+ .rodata.__func__.4749
                 0x0000000000000000       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .rodata.__func__.4761
+ .rodata.__func__.4764
                 0x0000000000000000       0x15 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -430,8 +438,12 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .text.get_user_irq_claim_index
+                0x0000000000000000        0x6 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_set_pending
                 0x0000000000000000       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .text.irq_has_shared_handler
+                0x0000000000000000       0x24 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_get_exclusive_handler
                 0x0000000000000000       0x4c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_add_shared_handler
@@ -440,8 +452,22 @@ Discarded input sections
                 0x0000000000000000       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_get_priority
                 0x0000000000000000       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .rodata.__func__.4832
+ .text.user_irq_claim
+                0x0000000000000000       0x24 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .text.user_irq_unclaim
+                0x0000000000000000       0x1c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .text.user_irq_claim_unused
+                0x0000000000000000       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .text.user_irq_is_claimed
+                0x0000000000000000       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .bss.user_irq_claimed
+                0x0000000000000000        0x2 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .rodata.__func__.4870
                 0x0000000000000000       0x17 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .rodata.user_irq_claim.str1.4
+                0x0000000000000000       0x1c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .rodata.user_irq_claim_unused.str1.4
+                0x0000000000000000       0x1b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
  .text          0x0000000000000000        0x0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -496,6 +522,14 @@ Discarded input sections
                 0x0000000000000000       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_get_drive_strength
                 0x0000000000000000       0x18 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .text.gpio_set_irq_callback
+                0x0000000000000000       0x48 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .text.gpio_add_raw_irq_handler_with_order_priority_masked
+                0x0000000000000000       0x40 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .text.gpio_add_raw_irq_handler_masked
+                0x0000000000000000        0xa CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .text.gpio_remove_raw_irq_handler_masked
+                0x0000000000000000       0x48 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_acknowledge_irq
                 0x0000000000000000       0x18 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text._gpio_set_irq_enabled
@@ -503,11 +537,11 @@ Discarded input sections
  .text.gpio_set_irq_enabled
                 0x0000000000000000       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_irq_enabled_with_callback
-                0x0000000000000000       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000000000000       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_dormant_irq_enabled
                 0x0000000000000000       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .text.gpio_irq_handler
-                0x0000000000000000       0x64 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .text.gpio_default_irq_handler
+                0x0000000000000000       0x98 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_input_enabled
                 0x0000000000000000       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_init
@@ -518,8 +552,18 @@ Discarded input sections
                 0x0000000000000000       0x1e CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_debug_pins_init
                 0x0000000000000000       0x18 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .bss._callbacks
+ .bss.callbacks
                 0x0000000000000000        0x8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .bss.raw_irq_mask
+                0x0000000000000000        0x8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .rodata.__func__.4836
+                0x0000000000000000       0x34 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .rodata.__func__.4845
+                0x0000000000000000       0x23 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .rodata.gpio_add_raw_irq_handler_with_order_priority_masked.str1.4
+                0x0000000000000000       0x75 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .rodata.gpio_remove_raw_irq_handler_masked.str1.4
+                0x0000000000000000       0x29 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -557,7 +601,7 @@ Discarded input sections
                 0x0000000000000000        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .text.hard_assertion_failure
                 0x0000000000000000        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .bss.heap_end.5901
+ .bss.heap_end.5914
                 0x0000000000000000        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.hard_assertion_failure.str1.4
                 0x0000000000000000        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -584,7 +628,7 @@ Discarded input sections
                 0x0000000000000000       0x50 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .bss._resus_callback
                 0x0000000000000000        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .rodata.__func__.4802
+ .rodata.__func__.4852
                 0x0000000000000000       0x14 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.clocks_handle_resus.str1.4
                 0x0000000000000000       0x8b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -1009,7 +1053,7 @@ Discarded input sections
                 0x0000000000000000        0xa CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .debug_info    0x0000000000000000     0x3f60 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .debug_abbrev  0x0000000000000000      0x444 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
- .debug_loc     0x0000000000000000     0x5164 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .debug_loc     0x0000000000000000     0x5150 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .debug_aranges
                 0x0000000000000000      0x128 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .debug_ranges  0x0000000000000000      0xb20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -1040,6 +1084,8 @@ Discarded input sections
  .text.__wrap_malloc
                 0x0000000000000000       0x3c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .text.__wrap_calloc
+                0x0000000000000000       0x40 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .text.__wrap_realloc
                 0x0000000000000000       0x40 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .text.__wrap_free
                 0x0000000000000000       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -1086,7 +1132,7 @@ Discarded input sections
  .text.putchar_raw
                 0x0000000000000000       0x1c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text._read    0x0000000000000000       0x24 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text._write   0x0000000000000000       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text._write   0x0000000000000000       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.puts_raw
                 0x0000000000000000       0x1e CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_getchar
@@ -1099,9 +1145,9 @@ Discarded input sections
                 0x0000000000000000       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.__func__.5474
                 0x0000000000000000       0x15 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .rodata.__func__.6220
+ .rodata.__func__.6222
                 0x0000000000000000        0xf CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .rodata.__func__.6226
+ .rodata.__func__.6228
                 0x0000000000000000       0x13 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.__wrap_getchar.str1.4
                 0x0000000000000000       0x53 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1122,17 +1168,17 @@ Discarded input sections
                 0x0000000000000000        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr65
                 0x0000000000000000        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .rodata.__bi_49.4833
+ .rodata.__bi_49.4923
                 0x0000000000000000        0x8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .rodata.__bi_53.4837
+ .rodata.__bi_53.4927
                 0x0000000000000000        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .rodata.__bi_61.4843
+ .rodata.__bi_61.4933
                 0x0000000000000000        0x8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .rodata.__bi_65.4847
+ .rodata.__bi_65.4937
                 0x0000000000000000        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccEChEwX.o
- .data          0x0000000000000000        0x0 /tmp/ccEChEwX.o
- .bss           0x0000000000000000        0x0 /tmp/ccEChEwX.o
+ .text          0x0000000000000000        0x0 /tmp/cco06yeg.o
+ .data          0x0000000000000000        0x0 /tmp/cco06yeg.o
+ .bss           0x0000000000000000        0x0 /tmp/cco06yeg.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o)
@@ -1261,6 +1307,35 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x30 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-mlock.o)
  .ARM.attributes
                 0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-mlock.o)
+ .text          0x0000000000000000       0x18 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-realloc.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-realloc.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-realloc.o)
+ .debug_info    0x0000000000000000      0x988 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-realloc.o)
+ .debug_abbrev  0x0000000000000000      0x225 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-realloc.o)
+ .debug_loc     0x0000000000000000       0x64 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-realloc.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-realloc.o)
+ .debug_line    0x0000000000000000      0x159 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-realloc.o)
+ .debug_str     0x0000000000000000      0x5bb /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-realloc.o)
+ .comment       0x0000000000000000       0x4f /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-realloc.o)
+ .debug_frame   0x0000000000000000       0x28 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-realloc.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-realloc.o)
+ .text          0x0000000000000000      0x35c /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o)
+ .debug_info    0x0000000000000000      0xef1 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o)
+ .debug_abbrev  0x0000000000000000      0x298 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o)
+ .debug_loc     0x0000000000000000     0x124a /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o)
+ .debug_ranges  0x0000000000000000       0xf0 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o)
+ .debug_line    0x0000000000000000      0x676 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o)
+ .debug_str     0x0000000000000000      0x7b8 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o)
+ .comment       0x0000000000000000       0x4f /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o)
+ .debug_frame   0x0000000000000000       0x3c /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reallocr.o)
  .text          0x0000000000000000       0x24 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-sbrkr.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-sbrkr.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-sbrkr.o)
@@ -1305,6 +1380,20 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x58 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-freer.o)
  .ARM.attributes
                 0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-freer.o)
+ .text          0x0000000000000000       0xbc /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-memmove.o)
+ .debug_info    0x0000000000000000      0xf2b /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-memmove.o)
+ .debug_abbrev  0x0000000000000000      0x21c /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-memmove.o)
+ .debug_loc     0x0000000000000000      0x508 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-memmove.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-memmove.o)
+ .debug_line    0x0000000000000000      0x28a /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-memmove.o)
+ .debug_str     0x0000000000000000      0x8e5 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-memmove.o)
+ .comment       0x0000000000000000       0x4f /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-memmove.o)
  .text          0x0000000000000000       0xb0 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reent.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reent.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reent.o)
@@ -1353,11 +1442,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccEChEwX.o
+ .boot2         0x0000000010000000      0x100 /tmp/cco06yeg.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x4050
+.text           0x0000000010000100     0x4070
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1601,212 +1690,211 @@ LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x0000000010001be4        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
                 0x0000000010001be4                clock_get_hz
  .text.pll_init
-                0x0000000010001bf0      0x11c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000010001bf0      0x140 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
                 0x0000000010001bf0                pll_init
  .text.watchdog_start_tick
-                0x0000000010001d0c       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010001d0c                watchdog_start_tick
+                0x0000000010001d30       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001d30                watchdog_start_tick
  .text.xosc_init
-                0x0000000010001d1c       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x0000000010001d1c                xosc_init
+                0x0000000010001d40       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000010001d40                xosc_init
  .text._out_null
-                0x0000000010001d44        0x2 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001d68        0x2 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x0000000010001d46        0xe CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._atoi    0x0000000010001d54       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001d6a        0xe CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._atoi    0x0000000010001d78       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x0000000010001d7c       0x8c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001da0       0x8c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x0000000010001e08      0x10c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001e2c      0x10c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long
-                0x0000000010001f14       0xb0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001f38       0xb0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long_long
-                0x0000000010001fc4       0xe6 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x00000000100020aa        0x2 
- .text._etoa    0x00000000100020ac      0x408 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x00000000100024b4      0x344 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001fe8       0xe6 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x00000000100020ce        0x2 
+ .text._etoa    0x00000000100020d0      0x408 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x00000000100024d8      0x344 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x00000000100027f8      0x61c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000000001000281c      0x61c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x0000000010002e14       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010002e14                vfctprintf
- .text          0x0000000010002e34       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000010002e38       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002e38                vfctprintf
+ .text          0x0000000010002e58       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x0000000010002e44       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010002e44                rom_func_lookup
+                0x0000000010002e68       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010002e68                rom_func_lookup
  .text.rom_data_lookup
-                0x0000000010002e54       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010002e54                rom_data_lookup
+                0x0000000010002e78       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010002e78                rom_data_lookup
  .text.rom_funcs_lookup
-                0x0000000010002e64       0x36 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010002e64                rom_funcs_lookup
- *fill*         0x0000000010002e9a        0x2 
+                0x0000000010002e88       0x36 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010002e88                rom_funcs_lookup
+ *fill*         0x0000000010002ebe        0x2 
  .text.__wrap___aeabi_idiv
-                0x0000000010002e9c       0x50 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010002e9c                __wrap___aeabi_idivmod
-                0x0000000010002e9c                divmod_s32s32
-                0x0000000010002e9c                div_s32s32
-                0x0000000010002e9c                __wrap___aeabi_idiv
-                0x0000000010002ea4                divmod_s32s32_unsafe
-                0x0000000010002ed0                divmod_s32s32_savestate
+                0x0000000010002ec0       0x50 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010002ec0                __wrap___aeabi_idivmod
+                0x0000000010002ec0                divmod_s32s32
+                0x0000000010002ec0                div_s32s32
+                0x0000000010002ec0                __wrap___aeabi_idiv
+                0x0000000010002ec8                divmod_s32s32_unsafe
+                0x0000000010002ef4                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x0000000010002eec       0x4c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010002eec                __wrap___aeabi_uidiv
-                0x0000000010002eec                __wrap___aeabi_uidivmod
-                0x0000000010002eec                div_u32u32
-                0x0000000010002eec                divmod_u32u32
-                0x0000000010002ef4                divmod_u32u32_unsafe
-                0x0000000010002f1c                divmod_u32u32_savestate
+                0x0000000010002f10       0x4c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010002f10                __wrap___aeabi_uidiv
+                0x0000000010002f10                __wrap___aeabi_uidivmod
+                0x0000000010002f10                div_u32u32
+                0x0000000010002f10                divmod_u32u32
+                0x0000000010002f18                divmod_u32u32_unsafe
+                0x0000000010002f40                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x0000000010002f38      0x434 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010002f38                div_s64s64
-                0x0000000010002f38                divmod_s64s64
-                0x0000000010002f38                __wrap___aeabi_ldivmod
-                0x0000000010002f70                div_u64u64
-                0x0000000010002f70                divmod_u64u64
-                0x0000000010002f70                __wrap___aeabi_uldivmod
-                0x0000000010002f80                divmod_u64u64_savestate
-                0x0000000010002fa8                divmod_s64s64_unsafe
-                0x0000000010003030                divmod_u64u64_unsafe
+                0x0000000010002f5c      0x434 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010002f5c                div_s64s64
+                0x0000000010002f5c                divmod_s64s64
+                0x0000000010002f5c                __wrap___aeabi_ldivmod
+                0x0000000010002f94                div_u64u64
+                0x0000000010002f94                divmod_u64u64
+                0x0000000010002f94                __wrap___aeabi_uldivmod
+                0x0000000010002fa4                divmod_u64u64_savestate
+                0x0000000010002fcc                divmod_s64s64_unsafe
+                0x0000000010003054                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x000000001000336c       0x80 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x000000001000336c                __wrap___aeabi_drsub
-                0x0000000010003372                __wrap___aeabi_dsub
-                0x0000000010003384                __wrap___aeabi_dadd
-                0x0000000010003396                __wrap___aeabi_ddiv
-                0x00000000100033d2                __wrap___aeabi_dmul
+                0x0000000010003390       0x80 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003390                __wrap___aeabi_drsub
+                0x0000000010003396                __wrap___aeabi_dsub
+                0x00000000100033a8                __wrap___aeabi_dadd
+                0x00000000100033ba                __wrap___aeabi_ddiv
+                0x00000000100033f6                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x00000000100033ec       0x6c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100033ec                __wrap___aeabi_cdrcmple
-                0x00000000100033fc                __wrap___aeabi_cdcmple
-                0x00000000100033fc                __wrap___aeabi_cdcmpeq
+                0x0000000010003410       0x6c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003410                __wrap___aeabi_cdrcmple
+                0x0000000010003420                __wrap___aeabi_cdcmple
+                0x0000000010003420                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x0000000010003458        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003458                __wrap___aeabi_dcmplt
+                0x000000001000347c        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x000000001000347c                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x0000000010003464       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003464                __wrap___aeabi_dcmple
+                0x0000000010003488       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003488                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x0000000010003474       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003474                __wrap___aeabi_dcmpge
+                0x0000000010003498       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003498                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x0000000010003484        0xa CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003484                __wrap___aeabi_dcmpgt
+                0x00000000100034a8        0xa CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100034a8                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x000000001000348e       0x1c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x000000001000348e                __wrap___aeabi_dcmpun
- *fill*         0x00000000100034aa        0x2 
+                0x00000000100034b2       0x1c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100034b2                __wrap___aeabi_dcmpun
+ *fill*         0x00000000100034ce        0x2 
  .text.__wrap___aeabi_i2d
-                0x00000000100034ac       0x38 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100034ac                __wrap___aeabi_ui2d
-                0x00000000100034b4                __wrap___aeabi_i2d
+                0x00000000100034d0       0x38 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100034d0                __wrap___aeabi_ui2d
+                0x00000000100034d8                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x00000000100034e4       0x48 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100034e4                __wrap___aeabi_d2iz
-                0x00000000100034e4                double2int_z
+                0x0000000010003508       0x48 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003508                __wrap___aeabi_d2iz
+                0x0000000010003508                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x000000001000352c       0x18 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x000000001000352c                double2uint
-                0x000000001000352c                __wrap___aeabi_d2uiz
+                0x0000000010003550       0x18 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003550                double2uint
+                0x0000000010003550                __wrap___aeabi_d2uiz
  .text.__aeabi_double_init
-                0x0000000010003544       0xc8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000010003544                __aeabi_double_init
+                0x0000000010003568       0xc8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010003568                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x000000001000360c       0x34 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x000000001000360c                double_table_shim_on_use_helper
+                0x0000000010003630       0x34 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003630                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x0000000010003640       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003640                drsub_shim
-                0x0000000010003646                dsub_shim
+                0x0000000010003664       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003664                drsub_shim
+                0x000000001000366a                dsub_shim
  .text.dadd_shim
-                0x0000000010003650      0x15c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003650                dadd_shim
+                0x0000000010003674      0x15c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003674                dadd_shim
  .text.dmul_shim
-                0x00000000100037ac      0x15c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100037ac                dmul_shim
+                0x00000000100037d0      0x15c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000100037d0                dmul_shim
  .text.ddiv_shim
-                0x0000000010003908      0x1b0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003908                ddiv_shim
+                0x000000001000392c      0x1b0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x000000001000392c                ddiv_shim
  .text.double2uint_shim
-                0x0000000010003ab8        0xe CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003ab8                double2uint_shim
-                0x0000000010003aba                double2ufix_shim
- *fill*         0x0000000010003ac6        0x2 
+                0x0000000010003adc        0xe CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003adc                double2uint_shim
+                0x0000000010003ade                double2ufix_shim
+ *fill*         0x0000000010003aea        0x2 
  .text.double2uint64_shim
-                0x0000000010003ac8       0x70 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003ac8                double2uint64_shim
-                0x0000000010003aca                double2ufix64_shim
-                0x0000000010003aea                d2fix_a
+                0x0000000010003aec       0x70 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003aec                double2uint64_shim
+                0x0000000010003aee                double2ufix64_shim
+                0x0000000010003b0e                d2fix_a
  .text.dunpacks
-                0x0000000010003b38       0x3c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003b38                dunpacks
+                0x0000000010003b5c       0x3c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003b5c                dunpacks
  .text.__aeabi_float_init
-                0x0000000010003b74       0xfc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000010003b74                __aeabi_float_init
+                0x0000000010003b98       0xfc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010003b98                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x0000000010003c70       0x34 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010003c70                float_table_shim_on_use_helper
- .text          0x0000000010003ca4       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010003ca4                __aeabi_mem_init
- .text.memset   0x0000000010003cb4        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010003cb4                __wrap_memset
- .text.memcpy   0x0000000010003cc0        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010003cc0                __wrap___aeabi_memcpy
-                0x0000000010003cc0                __wrap_memcpy
+                0x0000000010003c94       0x34 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010003c94                float_table_shim_on_use_helper
+ .text          0x0000000010003cc8       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003cc8                __aeabi_mem_init
+ .text.memset   0x0000000010003cd8        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003cd8                __wrap_memset
+ .text.memcpy   0x0000000010003ce4        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003ce4                __wrap___aeabi_memcpy
+                0x0000000010003ce4                __wrap_memcpy
  .text.stdio_out_chars_no_crlf
-                0x0000000010003ccc        0xe CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x0000000010003cda        0x2 
+                0x0000000010003cf0        0xe CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x0000000010003cfe        0x2 
  .text.stdio_out_chars_crlf
-                0x0000000010003cdc       0x80 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003d00       0x80 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_stack_buffer_flush
-                0x0000000010003d5c       0x44 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003d80       0x44 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x0000000010003da0       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003dc4       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
-                0x0000000010003dc0       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010003dc0                stdout_serialize_begin
+                0x0000000010003de4       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003de4                stdout_serialize_begin
  .text.stdout_serialize_end
-                0x0000000010003df0       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010003df0                stdout_serialize_end
+                0x0000000010003e14       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003e14                stdout_serialize_end
  .text.stdio_put_string
-                0x0000000010003e00       0x94 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003e24       0x94 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_set_driver_enabled
-                0x0000000010003e94       0x2c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010003e94                stdio_set_driver_enabled
+                0x0000000010003eb8       0x2c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003eb8                stdio_set_driver_enabled
  .text.stdio_flush
-                0x0000000010003ec0       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010003ec0                stdio_flush
+                0x0000000010003ee4       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003ee4                stdio_flush
  .text.__wrap_puts
-                0x0000000010003ee0       0x1e CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010003ee0                __wrap_puts
- *fill*         0x0000000010003efe        0x2 
+                0x0000000010003f04       0x1e CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003f04                __wrap_puts
+ *fill*         0x0000000010003f22        0x2 
  .text.__wrap_vprintf
-                0x0000000010003f00       0x44 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010003f00                __wrap_vprintf
+                0x0000000010003f24       0x44 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003f24                __wrap_vprintf
  .text.__wrap_printf
-                0x0000000010003f44       0x18 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010003f44                __wrap_printf
+                0x0000000010003f68       0x18 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003f68                __wrap_printf
  .text.stdio_init_all
-                0x0000000010003f5c        0x8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010003f5c                stdio_init_all
+                0x0000000010003f80        0x8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003f80                stdio_init_all
  .text.stdio_uart_out_chars
-                0x0000000010003f64       0x74 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010003f88       0x74 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x0000000010003fd8       0x54 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x0000000010003fd8                stdio_uart_in_chars
+                0x0000000010003ffc       0x54 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010003ffc                stdio_uart_in_chars
  .text.stdio_uart_init_full
-                0x000000001000402c       0x3c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x000000001000402c                stdio_uart_init_full
+                0x0000000010004050       0x3c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010004050                stdio_uart_init_full
  .text.stdio_uart_init
-                0x0000000010004068       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x0000000010004068                stdio_uart_init
- .text          0x0000000010004090       0x68 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
-                0x0000000010004090                strlen
+                0x000000001000408c       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x000000001000408c                stdio_uart_init
+ .text          0x00000000100040b4       0x68 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+                0x00000000100040b4                strlen
  *(.fini)
- .fini          0x00000000100040f8        0x4 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crti.o
-                0x00000000100040f8                _fini
- *fill*         0x00000000100040fc        0x4 
- .fini.__stub   0x0000000010004100       0x50 linker stubs
+ .fini          0x000000001000411c        0x4 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crti.o
+                0x000000001000411c                _fini
+ .fini.__stub   0x0000000010004120       0x50 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1818,250 +1906,250 @@ LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x0000000010004150        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010004150                . = ALIGN (0x4)
+ .eh_frame      0x0000000010004170        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010004170                . = ALIGN (0x4)
 
-.glue_7         0x0000000010004150        0x0
- .glue_7        0x0000000010004150        0x0 linker stubs
+.glue_7         0x0000000010004170        0x0
+ .glue_7        0x0000000010004170        0x0 linker stubs
 
-.glue_7t        0x0000000010004150        0x0
- .glue_7t       0x0000000010004150        0x0 linker stubs
+.glue_7t        0x0000000010004170        0x0
+ .glue_7t       0x0000000010004170        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010004150        0x0
- .vfp11_veneer  0x0000000010004150        0x0 linker stubs
+.vfp11_veneer   0x0000000010004170        0x0
+ .vfp11_veneer  0x0000000010004170        0x0 linker stubs
 
-.v4_bx          0x0000000010004150        0x0
- .v4_bx         0x0000000010004150        0x0 linker stubs
+.v4_bx          0x0000000010004170        0x0
+ .v4_bx         0x0000000010004170        0x0 linker stubs
 
-.iplt           0x0000000010004150        0x0
- .iplt          0x0000000010004150        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000010004170        0x0
+ .iplt          0x0000000010004170        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010004150      0xfa8
+.rodata         0x0000000010004170     0x1008
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x0000000010004150       0x44 CMakeFiles/multicore_runner.dir/multicore_runner.c.obj
- .rodata.__func__.4946
-                0x0000000010004194       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- *fill*         0x00000000100041b6        0x2 
+                0x0000000010004170       0x44 CMakeFiles/multicore_runner.dir/multicore_runner.c.obj
+ .rodata.__func__.4961
+                0x00000000100041b4       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ *fill*         0x00000000100041d6        0x2 
  .rodata.multicore_launch_core1_with_stack.str1.4
-                0x00000000100041b8       0x19 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- *fill*         0x00000000100041d1        0x3 
+                0x00000000100041d8       0x19 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ *fill*         0x00000000100041f1        0x3 
  .rodata.multicore_lockout_start_block_until.str1.4
-                0x00000000100041d4       0x67 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- *fill*         0x000000001000423b        0x1 
+                0x00000000100041f4       0x67 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ *fill*         0x000000001000425b        0x1 
  .rodata.__func__.5751
-                0x000000001000423c       0x15 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010004251        0x3 
- .rodata.__func__.6063
-                0x0000000010004254        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- .rodata.__func__.6070
-                0x0000000010004260       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010004272        0x2 
- .rodata.__func__.6086
-                0x0000000010004274        0xf CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010004283        0x1 
- .rodata.__func__.6108
-                0x0000000010004284        0xd CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010004291        0x3 
- .rodata.__func__.6332
-                0x0000000010004294        0xa CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001000429e        0x2 
+                0x000000001000425c       0x15 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010004271        0x3 
+ .rodata.__func__.6069
+                0x0000000010004274        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .rodata.__func__.6076
+                0x0000000010004280       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010004292        0x2 
+ .rodata.__func__.6092
+                0x0000000010004294        0xf CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100042a3        0x1 
+ .rodata.__func__.6114
+                0x00000000100042a4        0xd CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100042b1        0x3 
  .rodata.__func__.6337
-                0x00000000100042a0       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100042b2        0x2 
- .rodata.__func__.6363
-                0x00000000100042b4       0x15 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100042c9        0x3 
- .rodata.__func__.6380
-                0x00000000100042cc       0x1a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100042e6        0x2 
+                0x00000000100042b4        0xa CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100042be        0x2 
+ .rodata.__func__.6342
+                0x00000000100042c0       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100042d2        0x2 
+ .rodata.__func__.6368
+                0x00000000100042d4       0x15 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100042e9        0x3 
+ .rodata.__func__.6385
+                0x00000000100042ec       0x1a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010004306        0x2 
  .rodata.add_alarm_under_lock.str1.4
-                0x00000000100042e8       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010004308       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
                                          0x2b (size before relaxing)
  .rodata.alarm_pool_alarm_callback.str1.4
-                0x0000000010004310       0xee CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100043fe        0x2 
+                0x0000000010004330       0xee CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000441e        0x2 
  .rodata.alarm_pool_dump_key.str1.4
-                0x0000000010004400       0x33 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010004433        0x1 
+                0x0000000010004420       0x33 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010004453        0x1 
  .rodata.ph_add_child_node.str1.4
-                0x0000000010004434       0x9e CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100044d2        0x2 
+                0x0000000010004454       0x9e CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100044f2        0x2 
  .rodata.repeating_timer_callback.str1.4
-                0x00000000100044d4       0x55 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010004529        0x3 
- .rodata.__func__.4612
-                0x000000001000452c       0x1a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010004546        0x2 
+                0x00000000100044f4       0x55 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010004549        0x3 
+ .rodata.__func__.4625
+                0x000000001000454c       0x1a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010004566        0x2 
  .rodata.hardware_alarm_claim.str1.4
-                0x0000000010004548       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x000000001000456a        0x2 
+                0x0000000010004568       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x000000001000458a        0x2 
  .rodata.hardware_alarm_set_target.str1.4
-                0x000000001000456c       0x6f CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x00000000100045db        0x1 
- .rodata.__func__.5761
-                0x00000000100045dc        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .rodata.__func__.5768
-                0x00000000100045e8       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x00000000100045fa        0x2 
- .rodata.__func__.5854
-                0x00000000100045fc       0x13 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x000000001000460f        0x1 
- .rodata.__func__.5872
-                0x0000000010004610       0x18 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000001000458c       0x6f CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x00000000100045fb        0x1 
+ .rodata.__func__.5767
+                0x00000000100045fc        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .rodata.__func__.5774
+                0x0000000010004608       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x000000001000461a        0x2 
+ .rodata.__func__.5860
+                0x000000001000461c       0x13 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x000000001000462f        0x1 
+ .rodata.__func__.5878
+                0x0000000010004630       0x18 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.ph_add_child_node.str1.4
-                0x0000000010004628       0x9e CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010004648       0x9e CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.ph_remove_and_free_node.str1.4
-                0x0000000010004628       0x26 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x000000001000464e        0x2 
+                0x0000000010004648       0x26 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x000000001000466e        0x2 
  .rodata.ph_remove_any_head.str1.4
-                0x0000000010004650       0x98 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .rodata.__func__.4756
-                0x00000000100046e8        0xb CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x00000000100046f3        0x1 
- .rodata.str1.4
-                0x00000000100046f4       0x95 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                                        0x101 (size before relaxing)
- *fill*         0x0000000010004789        0x3 
- .rodata.__func__.4789
-                0x000000001000478c       0x1a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x00000000100047a6        0x2 
- .rodata.__func__.4803
-                0x00000000100047a8        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .rodata.__func__.4811
-                0x00000000100047b4       0x17 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x00000000100047cb        0x1 
- .rodata.__func__.4815
-                0x00000000100047cc        0xf CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x00000000100047db        0x1 
- .rodata.__func__.4854
-                0x00000000100047dc       0x13 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x00000000100047ef        0x1 
- .rodata.__func__.4876
-                0x00000000100047f0       0x1a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001000480a        0x2 
- .rodata.insert_branch_and_link.str1.4
-                0x000000001000480c       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .rodata.irq_add_shared_handler.str1.4
-                0x000000001000481c       0xd9 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x00000000100048f5        0x3 
- .rodata.irq_add_tail_to_free_list.str1.4
-                0x00000000100048f8       0x32 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                                         0x3a (size before relaxing)
- *fill*         0x000000001000492a        0x2 
- .rodata.irq_remove_handler.str1.4
-                0x000000001000492c       0x2a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010004956        0x2 
- .rodata.irq_set_exclusive_handler.str1.4
-                0x0000000010004958       0x36 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001000498e        0x2 
- .rodata.make_branch.str1.4
-                0x0000000010004990       0x77 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010004a07        0x1 
- .rodata.__assert_func.str1.4
-                0x0000000010004a08       0x3f CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                                         0x43 (size before relaxing)
- *fill*         0x0000000010004a47        0x1 
- .rodata.__func__.5872
-                0x0000000010004a48        0xd CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010004a55        0x3 
- .rodata.panic.str1.4
-                0x0000000010004a58       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010004a6a        0x2 
- .rodata.runtime_init.str1.4
-                0x0000000010004a6c       0x6b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010004ad7        0x1 
+                0x0000000010004670       0x98 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.__func__.4759
-                0x0000000010004ad8       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010004708        0xb CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x0000000010004713        0x1 
+ .rodata.str1.4
+                0x0000000010004714       0x95 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                                        0x101 (size before relaxing)
+ *fill*         0x00000000100047a9        0x3 
+ .rodata.__func__.4827
+                0x00000000100047ac       0x1a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x00000000100047c6        0x2 
+ .rodata.__func__.4841
+                0x00000000100047c8        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .rodata.__func__.4849
+                0x00000000100047d4       0x17 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x00000000100047eb        0x1 
+ .rodata.__func__.4853
+                0x00000000100047ec        0xf CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x00000000100047fb        0x1 
+ .rodata.__func__.4892
+                0x00000000100047fc       0x13 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000480f        0x1 
+ .rodata.__func__.4914
+                0x0000000010004810       0x1a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000482a        0x2 
+ .rodata.insert_branch_and_link.str1.4
+                0x000000001000482c       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .rodata.irq_add_shared_handler.str1.4
+                0x000000001000483c       0xd9 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010004915        0x3 
+ .rodata.irq_add_tail_to_free_list.str1.4
+                0x0000000010004918       0x32 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                                         0x3a (size before relaxing)
+ *fill*         0x000000001000494a        0x2 
+ .rodata.irq_remove_handler.str1.4
+                0x000000001000494c       0x2a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010004976        0x2 
+ .rodata.irq_set_exclusive_handler.str1.4
+                0x0000000010004978       0x36 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x00000000100049ae        0x2 
+ .rodata.make_branch.str1.4
+                0x00000000100049b0       0x77 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010004a27        0x1 
+ .rodata.__assert_func.str1.4
+                0x0000000010004a28       0x3f CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                                         0x43 (size before relaxing)
+ *fill*         0x0000000010004a67        0x1 
+ .rodata.__func__.5885
+                0x0000000010004a68        0xd CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x0000000010004a75        0x3 
+ .rodata.panic.str1.4
+                0x0000000010004a78       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x0000000010004a8a        0x2 
+ .rodata.runtime_init.str1.4
+                0x0000000010004a8c       0x6b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x0000000010004af7        0x1 
+ .rodata.__func__.4809
+                0x0000000010004af8       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.clock_configure.str1.4
-                0x0000000010004ae8       0x61 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- *fill*         0x0000000010004b49        0x3 
- .rodata.__func__.4461
-                0x0000000010004b4c        0x9 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x0000000010004b55        0x3 
+                0x0000000010004b08       0x61 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ *fill*         0x0000000010004b69        0x3 
+ .rodata.__func__.4466
+                0x0000000010004b6c        0x9 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x0000000010004b75        0x3 
  .rodata.pll_init.str1.4
-                0x0000000010004b58       0xe3 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x0000000010004c3b        0x1 
+                0x0000000010004b78      0x143 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x0000000010004cbb        0x1 
  .rodata._vsnprintf
-                0x0000000010004c3c      0x1e0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010004cbc      0x1e0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata._ftoa.str1.4
-                0x0000000010004e1c       0x15 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x0000000010004e31        0x7 
- .rodata.pow10.5475
-                0x0000000010004e38       0x50 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010004e9c       0x15 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x0000000010004eb1        0x7 
+ .rodata.pow10.5481
+                0x0000000010004eb8       0x50 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.__aeabi_double_init.str1.4
-                0x0000000010004e88       0xb2 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- *fill*         0x0000000010004f3a        0x2 
- .rodata.__func__.4772
-                0x0000000010004f3c       0x14 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010004f08       0xb2 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ *fill*         0x0000000010004fba        0x2 
+ .rodata.__func__.4778
+                0x0000000010004fbc       0x14 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.__aeabi_float_init.str1.4
-                0x0000000010004f50       0x84 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010004fd0       0x84 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                          0x88 (size before relaxing)
- .rodata.__func__.4773
-                0x0000000010004fd4       0x13 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- *fill*         0x0000000010004fe7        0x1 
+ .rodata.__func__.4779
+                0x0000000010005054       0x13 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ *fill*         0x0000000010005067        0x1 
  .rodata.__bi_44
-                0x0000000010004fe8        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005068        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_69
-                0x0000000010004ff4        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005074        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x0000000010005000        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005080        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x000000001000500c        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000508c        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.str1.4
-                0x0000000010005018       0x9c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .rodata.crlf_str.6107
-                0x00000000100050b4        0x2 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x00000000100050b6        0x2 
- .rodata.__bi_28.4823
-                0x00000000100050b8        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .rodata.__bi_29.4827
-                0x00000000100050c4        0x8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010005098       0x9c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .rodata.crlf_str.6110
+                0x0000000010005134        0x2 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x0000000010005136        0x2 
+ .rodata.__bi_28.4913
+                0x0000000010005138        0xc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .rodata.__bi_29.4917
+                0x0000000010005144        0x8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.str1.4
-                0x00000000100050cc       0x2c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x00000000100050f8                . = ALIGN (0x4)
+                0x000000001000514c       0x2c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010005178                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x00000000100050f8                . = ALIGN (0x4)
+                0x0000000010005178                . = ALIGN (0x4)
 
-.rel.dyn        0x00000000100050f8        0x0
- .rel.iplt      0x00000000100050f8        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x0000000010005178        0x0
+ .rel.iplt      0x0000000010005178        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000100050f8                __exidx_start = .
+                0x0000000010005178                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000000100050f8                __exidx_end = .
-                0x00000000100050f8                . = ALIGN (0x4)
-                0x00000000100050f8                __binary_info_start = .
+                0x0000000010005178                __exidx_end = .
+                0x0000000010005178                . = ALIGN (0x4)
+                0x0000000010005178                __binary_info_start = .
 
-.binary_info    0x00000000100050f8       0x28
+.binary_info    0x0000000010005178       0x28
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x00000000100050f8        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005178        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x00000000100050fc        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000517c        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x0000000010005100        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005180        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x0000000010005104        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005184        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x0000000010005108        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005188        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr69
-                0x000000001000510c        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000518c        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x0000000010005110        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005190        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x0000000010005114        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005194        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr28
-                0x0000000010005118        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010005198        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr29
-                0x000000001000511c        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x0000000010005120                __binary_info_end = .
-                0x0000000010005120                . = ALIGN (0x4)
-                0x0000000010005120                __etext = .
+                0x000000001000519c        0x4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x00000000100051a0                __binary_info_end = .
+                0x00000000100051a0                . = ALIGN (0x4)
+                0x00000000100051a0                __etext = .
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2070,7 +2158,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x0000000020000000       0xc0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0x1c8 load address 0x0000000010005120
+.data           0x00000000200000c0      0x1c8 load address 0x00000000100051a0
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2153,33 +2241,33 @@ LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x0000000020000288                __data_end__ = .
 
 .tm_clone_table
-                0x0000000020000288        0x0 load address 0x00000000100052e8
+                0x0000000020000288        0x0 load address 0x0000000010005368
  .tm_clone_table
                 0x0000000020000288        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x0000000020000288        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x0000000020000288        0x0 load address 0x00000000100052e8
+.igot.plt       0x0000000020000288        0x0 load address 0x0000000010005368
  .igot.plt      0x0000000020000288        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x0000000020000288        0x0 load address 0x00000000100052e8
+                0x0000000020000288        0x0 load address 0x0000000010005368
                 0x0000000020000288                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x00000000100052e8
+.scratch_x      0x0000000020040000        0x0 load address 0x0000000010005368
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x00000000100052e8                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x0000000010005368                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x00000000100052e8
+.scratch_y      0x0000000020041000        0x0 load address 0x0000000010005368
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x00000000100052e8                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x0000000010005368                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x0000000020000288      0x3d0
                 0x0000000020000288                . = ALIGN (0x4)
@@ -2239,8 +2327,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x00000000100052e8        0x0
-                0x00000000100052e8                __flash_binary_end = .
+.flash_end      0x0000000010005368        0x0
+                0x0000000010005368                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2296,7 +2384,7 @@ LOAD CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2
 LOAD CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD /tmp/ccEChEwX.o
+LOAD /tmp/cco06yeg.o
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2391,7 +2479,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000000000005ce       0x2c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
-                0x00000000000005fa       0x22 /tmp/ccEChEwX.o
+                0x00000000000005fa       0x22 /tmp/cco06yeg.o
  .ARM.attributes
                 0x000000000000061c       0x1e /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -2432,7 +2520,7 @@ LOAD linker stubs
                                          0x4f (size before relaxing)
  .comment       0x000000000000009f       0x52 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crtend.o
 
-.debug_info     0x0000000000000000    0x1b356
+.debug_info     0x0000000000000000    0x1b97c
  .debug_info    0x0000000000000000      0xc61 CMakeFiles/multicore_runner.dir/multicore_runner.c.obj
  .debug_info    0x0000000000000c61     0x1c97 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .debug_info    0x00000000000028f8      0x1ed CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -2443,35 +2531,35 @@ LOAD linker stubs
  .debug_info    0x0000000000007cd4     0x10dc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .debug_info    0x0000000000008db0     0x1aab CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .debug_info    0x000000000000a85b     0x2045 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x000000000000c8a0     0x199b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x000000000000e23b       0x26 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
- .debug_info    0x000000000000e261     0x14ac CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x000000000000f70d      0xb37 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_info    0x0000000000010244     0x1341 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x0000000000011585      0xee6 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x000000000001246b      0x4e8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x0000000000012953      0xd7d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x00000000000136d0      0x1b8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x0000000000013888     0x2032 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x00000000000158ba       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00000000000158dc      0x262 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x0000000000015b3e       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x0000000000015b60       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x0000000000015b82      0xb2a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x00000000000166ac       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x00000000000166ce       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x00000000000166f0      0xb44 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x0000000000017234       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_info    0x0000000000017256      0xcb5 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_info    0x0000000000017f0b       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x0000000000017f2d       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x0000000000017f4f      0x2f7 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x0000000000018246     0x1b63 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x0000000000019da9      0xc14 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_info    0x000000000001a9bd       0x26 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_info    0x000000000001a9e3      0x973 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_info    0x000000000000c8a0     0x1c91 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x000000000000e531       0x26 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+ .debug_info    0x000000000000e557     0x16a5 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x000000000000fbfc      0xb37 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_info    0x0000000000010733     0x1341 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x0000000000011a74      0xedd CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x0000000000012951      0x517 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x0000000000012e68      0xd7d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x0000000000013be5      0x1b8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x0000000000013d9d     0x2032 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x0000000000015dcf       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x0000000000015df1      0x262 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x0000000000016053       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x0000000000016075       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x0000000000016097      0xb2a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x0000000000016bc1       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x0000000000016be3       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x0000000000016c05      0xb44 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x0000000000017749       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_info    0x000000000001776b      0xd98 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_info    0x0000000000018503       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x0000000000018525       0x22 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x0000000000018547      0x2f7 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x000000000001883e     0x1b7b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x000000000001a3b9      0xc2a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_info    0x000000000001afe3       0x26 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x000000000001b009      0x973 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_abbrev   0x0000000000000000     0x53a9
+.debug_abbrev   0x0000000000000000     0x5429
  .debug_abbrev  0x0000000000000000      0x2c2 CMakeFiles/multicore_runner.dir/multicore_runner.c.obj
  .debug_abbrev  0x00000000000002c2      0x471 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .debug_abbrev  0x0000000000000733      0x141 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -2482,35 +2570,35 @@ LOAD linker stubs
  .debug_abbrev  0x00000000000014b8      0x3c7 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .debug_abbrev  0x000000000000187f      0x3ad CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .debug_abbrev  0x0000000000001c2c      0x3a2 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_abbrev  0x0000000000001fce      0x4e5 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_abbrev  0x00000000000024b3       0x14 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
- .debug_abbrev  0x00000000000024c7      0x2cd CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_abbrev  0x0000000000002794      0x2e1 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_abbrev  0x0000000000002a75      0x4aa CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_abbrev  0x0000000000002f1f      0x3c8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_abbrev  0x00000000000032e7      0x1ee CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_abbrev  0x00000000000034d5      0x2d8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_abbrev  0x00000000000037ad      0x106 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_abbrev  0x00000000000038b3      0x4aa CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_abbrev  0x0000000000003d5d       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_abbrev  0x0000000000003d6f      0x144 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_abbrev  0x0000000000003eb3       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_abbrev  0x0000000000003ec5       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_abbrev  0x0000000000003ed7      0x2c2 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_abbrev  0x0000000000004199       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_abbrev  0x00000000000041ab       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_abbrev  0x00000000000041bd      0x2d5 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_abbrev  0x0000000000004492       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_abbrev  0x00000000000044a4      0x306 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_abbrev  0x00000000000047aa       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_abbrev  0x00000000000047bc       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_abbrev  0x00000000000047ce       0xad CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_abbrev  0x000000000000487b      0x583 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_abbrev  0x0000000000004dfe      0x3af CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_abbrev  0x00000000000051ad       0x14 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_abbrev  0x00000000000051c1      0x1e8 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_abbrev  0x0000000000001fce      0x514 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_abbrev  0x00000000000024e2       0x14 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+ .debug_abbrev  0x00000000000024f6      0x32f CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_abbrev  0x0000000000002825      0x2e1 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_abbrev  0x0000000000002b06      0x4aa CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_abbrev  0x0000000000002fb0      0x3c8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_abbrev  0x0000000000003378      0x1ee CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_abbrev  0x0000000000003566      0x2d8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_abbrev  0x000000000000383e      0x106 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_abbrev  0x0000000000003944      0x4aa CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_abbrev  0x0000000000003dee       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_abbrev  0x0000000000003e00      0x144 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_abbrev  0x0000000000003f44       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_abbrev  0x0000000000003f56       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_abbrev  0x0000000000003f68      0x2c2 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_abbrev  0x000000000000422a       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_abbrev  0x000000000000423c       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_abbrev  0x000000000000424e      0x2d5 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_abbrev  0x0000000000004523       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_abbrev  0x0000000000004535      0x306 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_abbrev  0x000000000000483b       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_abbrev  0x000000000000484d       0x12 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_abbrev  0x000000000000485f       0xad CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_abbrev  0x000000000000490c      0x585 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_abbrev  0x0000000000004e91      0x39c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_abbrev  0x000000000000522d       0x14 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x0000000000005241      0x1e8 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_loc      0x0000000000000000     0xe538
+.debug_loc      0x0000000000000000     0xe9ef
  .debug_loc     0x0000000000000000      0x1a0 CMakeFiles/multicore_runner.dir/multicore_runner.c.obj
  .debug_loc     0x00000000000001a0      0xef2 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .debug_loc     0x0000000000001092       0x60 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -2521,24 +2609,24 @@ LOAD linker stubs
  .debug_loc     0x0000000000004688      0x903 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .debug_loc     0x0000000000004f8b     0x14b2 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .debug_loc     0x000000000000643d     0x1472 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_loc     0x00000000000078af     0x12d0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_loc     0x0000000000008b7f      0xed6 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_loc     0x0000000000009a55      0x520 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_loc     0x0000000000009f75      0x37d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_loc     0x000000000000a2f2      0x768 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_loc     0x000000000000aa5a      0x2f8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_loc     0x000000000000ad52      0x2a0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_loc     0x000000000000aff2       0x3d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_loc     0x000000000000b02f     0x1fee CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_loc     0x000000000000d01d      0x1a1 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_loc     0x000000000000d1be       0x59 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_loc     0x000000000000d217       0x73 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_loc     0x000000000000d28a      0x1e8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_loc     0x000000000000d472      0xb37 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_loc     0x000000000000dfa9      0x4ec CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_loc     0x000000000000e495       0xa3 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_loc     0x00000000000078af     0x13fa CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_loc     0x0000000000008ca9     0x1160 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_loc     0x0000000000009e09      0x533 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_loc     0x000000000000a33c      0x37d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_loc     0x000000000000a6b9      0x768 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_loc     0x000000000000ae21      0x302 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_loc     0x000000000000b123      0x2a0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_loc     0x000000000000b3c3       0x3d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_loc     0x000000000000b400     0x1fee CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_loc     0x000000000000d3ee      0x1a1 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_loc     0x000000000000d58f       0x59 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_loc     0x000000000000d5e8       0x73 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_loc     0x000000000000d65b      0x2dc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_loc     0x000000000000d937      0xb29 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_loc     0x000000000000e460      0x4ec CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_loc     0x000000000000e94c       0xa3 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_aranges  0x0000000000000000      0xea8
+.debug_aranges  0x0000000000000000      0xf00
  .debug_aranges
                 0x0000000000000000       0x38 CMakeFiles/multicore_runner.dir/multicore_runner.c.obj
  .debug_aranges
@@ -2560,61 +2648,61 @@ LOAD linker stubs
  .debug_aranges
                 0x0000000000000398       0x88 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .debug_aranges
-                0x0000000000000420       0x98 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000000000420       0xc8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .debug_aranges
-                0x00000000000004b8       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+                0x00000000000004e8       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
  .debug_aranges
-                0x00000000000004d8       0xe0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000000000508      0x100 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_aranges
-                0x00000000000005b8       0x40 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000000000608       0x40 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .debug_aranges
-                0x00000000000005f8       0x60 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000000000648       0x60 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_aranges
-                0x0000000000000658       0x70 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000000006a8       0x70 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_aranges
-                0x00000000000006c8       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000000000718       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .debug_aranges
-                0x00000000000006f0       0x58 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000000000740       0x58 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .debug_aranges
-                0x0000000000000748       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000000000798       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_aranges
-                0x0000000000000778       0x90 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000000007c8       0x90 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .debug_aranges
-                0x0000000000000808       0x68 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000000000858       0x68 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .debug_aranges
-                0x0000000000000870       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000000008c0       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_aranges
-                0x00000000000008a0       0x40 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x00000000000008f0       0x40 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .debug_aranges
-                0x00000000000008e0      0x140 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000000000930      0x140 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .debug_aranges
-                0x0000000000000a20       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000000000a70       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .debug_aranges
-                0x0000000000000a40       0xc8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000000000a90       0xc8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .debug_aranges
-                0x0000000000000b08      0x130 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000000000b58      0x130 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .debug_aranges
-                0x0000000000000c38       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000000000c88       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .debug_aranges
-                0x0000000000000c58       0x50 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000000000ca8       0x50 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
  .debug_aranges
-                0x0000000000000ca8       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x0000000000000cf8       0x38 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .debug_aranges
-                0x0000000000000cd8       0x38 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000000000d30       0x38 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .debug_aranges
-                0x0000000000000d10       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x0000000000000d68       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
  .debug_aranges
-                0x0000000000000d38       0x18 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000000000d90       0x18 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .debug_aranges
-                0x0000000000000d50       0xd0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000000000da8       0xd0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_aranges
-                0x0000000000000e20       0x48 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000000000e78       0x48 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .debug_aranges
-                0x0000000000000e68       0x20 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x0000000000000ec0       0x20 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .debug_aranges
-                0x0000000000000e88       0x20 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+                0x0000000000000ee0       0x20 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_ranges   0x0000000000000000     0x3348
+.debug_ranges   0x0000000000000000     0x3400
  .debug_ranges  0x0000000000000000       0x58 CMakeFiles/multicore_runner.dir/multicore_runner.c.obj
  .debug_ranges  0x0000000000000058      0x338 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .debug_ranges  0x0000000000000390       0x10 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -2625,31 +2713,31 @@ LOAD linker stubs
  .debug_ranges  0x0000000000001130      0x358 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .debug_ranges  0x0000000000001488      0x230 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .debug_ranges  0x00000000000016b8      0xac8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_ranges  0x0000000000002180      0x3d0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_ranges  0x0000000000002550       0xe8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_ranges  0x0000000000002638       0xf8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_ranges  0x0000000000002730       0x80 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_ranges  0x00000000000027b0       0x60 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_ranges  0x0000000000002810       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_ranges  0x0000000000002840       0x48 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_ranges  0x0000000000002888       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_ranges  0x00000000000028a8      0x120 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_ranges  0x00000000000029c8       0x60 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_ranges  0x0000000000002a28       0x38 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_ranges  0x0000000000002a60       0x38 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_ranges  0x0000000000002a98      0x138 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_ranges  0x0000000000002bd0       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_ranges  0x0000000000002c00       0xc0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_ranges  0x0000000000002cc0      0x128 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_ranges  0x0000000000002de8       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_ranges  0x0000000000002e10       0x48 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_ranges  0x0000000000002e58       0x50 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_ranges  0x0000000000002ea8       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_ranges  0x0000000000002ed8       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_ranges  0x0000000000002ef8      0x1b0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_ranges  0x00000000000030a8      0x2a0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_ranges  0x0000000000002180      0x400 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_ranges  0x0000000000002580      0x150 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_ranges  0x00000000000026d0       0xf8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_ranges  0x00000000000027c8       0x80 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_ranges  0x0000000000002848       0x60 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_ranges  0x00000000000028a8       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_ranges  0x00000000000028d8       0x48 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_ranges  0x0000000000002920       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_ranges  0x0000000000002940      0x120 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_ranges  0x0000000000002a60       0x60 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_ranges  0x0000000000002ac0       0x38 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_ranges  0x0000000000002af8       0x38 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_ranges  0x0000000000002b30      0x138 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_ranges  0x0000000000002c68       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_ranges  0x0000000000002c98       0xc0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_ranges  0x0000000000002d58      0x128 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_ranges  0x0000000000002e80       0x28 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_ranges  0x0000000000002ea8       0x48 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_ranges  0x0000000000002ef0       0x70 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_ranges  0x0000000000002f60       0x30 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_ranges  0x0000000000002f90       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_ranges  0x0000000000002fb0      0x1b0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_ranges  0x0000000000003160      0x2a0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_line     0x0000000000000000     0xe0cb
+.debug_line     0x0000000000000000     0xe5e3
  .debug_line    0x0000000000000000      0x465 CMakeFiles/multicore_runner.dir/multicore_runner.c.obj
  .debug_line    0x0000000000000465      0xe9f CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .debug_line    0x0000000000001304      0x221 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -2657,38 +2745,38 @@ LOAD linker stubs
  .debug_line    0x00000000000018fa      0x3e7 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .debug_line    0x0000000000001ce1      0x1ff CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .debug_line    0x0000000000001ee0     0x18f0 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00000000000037d0      0xa7d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x000000000000424d      0x860 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x0000000000004aad      0xf6b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x0000000000005a18      0xe4c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x0000000000006864       0x8e CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
- .debug_line    0x00000000000068f2      0x998 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x000000000000728a      0x70d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x0000000000007997      0x82f CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x00000000000081c6      0x950 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x0000000000008b16      0x4d3 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x0000000000008fe9      0x41b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x0000000000009404      0x23d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x0000000000009641     0x10e3 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x000000000000a724      0x151 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x000000000000a875      0x1bf CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x000000000000aa34      0x2da CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x000000000000ad0e      0x42f CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x000000000000b13d      0x310 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x000000000000b44d      0x6a7 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x000000000000baf4      0x3e5 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x000000000000bed9      0x2f8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x000000000000c1d1      0x1d1 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x000000000000c3a2      0x3ae CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_line    0x000000000000c750       0xcb CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x000000000000c81b       0xdc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x000000000000c8f7      0x165 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x000000000000ca5c      0xc7c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x000000000000d6d8      0x7d1 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_line    0x000000000000dea9       0x60 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_line    0x000000000000df09      0x1c2 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_line    0x00000000000037d0      0xa7e CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x000000000000424e      0x860 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x0000000000004aae      0xfc8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x0000000000005a76      0xff1 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x0000000000006a67       0x8e CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+ .debug_line    0x0000000000006af5      0xbfc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00000000000076f1      0x70d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x0000000000007dfe      0x82f CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x000000000000862d      0x950 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000000000008f7d      0x4db CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x0000000000009458      0x41b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x0000000000009873      0x23d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x0000000000009ab0     0x10e3 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x000000000000ab93      0x151 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x000000000000ace4      0x1bf CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x000000000000aea3      0x2da CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x000000000000b17d      0x42f CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x000000000000b5ac      0x310 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x000000000000b8bc      0x6a7 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x000000000000bf63      0x3e5 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x000000000000c348      0x2f8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x000000000000c640      0x1d1 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x000000000000c811      0x3f4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_line    0x000000000000cc05       0xcb CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x000000000000ccd0       0xdc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x000000000000cdac      0x165 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x000000000000cf11      0xcdf CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x000000000000dbf0      0x7d1 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_line    0x000000000000e3c1       0x60 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x000000000000e421      0x1c2 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_str      0x0000000000000000     0x3d2c
+.debug_str      0x0000000000000000     0x3ed4
  .debug_str     0x0000000000000000      0x682 CMakeFiles/multicore_runner.dir/multicore_runner.c.obj
                                         0x721 (size before relaxing)
  .debug_str     0x0000000000000682      0x7be CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
@@ -2709,61 +2797,61 @@ LOAD linker stubs
                                         0x82a (size before relaxing)
  .debug_str     0x0000000000001a08      0x169 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
                                         0x602 (size before relaxing)
- .debug_str     0x0000000000001b71      0x2d1 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                                        0x720 (size before relaxing)
- .debug_str     0x0000000000001e42       0x63 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+ .debug_str     0x0000000000001b71      0x35c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                                        0x814 (size before relaxing)
+ .debug_str     0x0000000000001ecd       0x63 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
                                          0xae (size before relaxing)
- .debug_str     0x0000000000001ea5      0x4b3 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                                        0x8cf (size before relaxing)
- .debug_str     0x0000000000002358      0x289 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_str     0x0000000000001f30      0x563 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                                        0x9ce (size before relaxing)
+ .debug_str     0x0000000000002493      0x289 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
                                         0x56a (size before relaxing)
- .debug_str     0x00000000000025e1      0x1e1 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_str     0x000000000000271c      0x1e1 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                         0xa90 (size before relaxing)
- .debug_str     0x00000000000027c2      0x254 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_str     0x00000000000028fd      0x254 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
                                         0x683 (size before relaxing)
- .debug_str     0x0000000000002a16       0x99 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_str     0x0000000000002b51       0x99 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
                                         0x30d (size before relaxing)
- .debug_str     0x0000000000002aaf      0x130 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_str     0x0000000000002bea      0x130 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
                                         0x758 (size before relaxing)
- .debug_str     0x0000000000002bdf       0x75 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_str     0x0000000000002d1a       0x75 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
                                         0x25f (size before relaxing)
- .debug_str     0x0000000000002c54      0x19a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_str     0x0000000000002d8f      0x19a CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
                                         0x79f (size before relaxing)
- .debug_str     0x0000000000002dee       0x51 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_str     0x0000000000002f29       0x51 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
                                          0xaa (size before relaxing)
- .debug_str     0x0000000000002e3f       0xce CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_str     0x0000000000002f7a       0xce CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
                                         0x28f (size before relaxing)
- .debug_str     0x0000000000002f0d       0x4b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_str     0x0000000000003048       0x4b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
                                          0xa4 (size before relaxing)
- .debug_str     0x0000000000002f58       0x4f CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_str     0x0000000000003093       0x4f CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
                                          0xa8 (size before relaxing)
- .debug_str     0x0000000000002fa7       0xa7 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_str     0x00000000000030e2       0xa7 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
                                         0x6a3 (size before relaxing)
- .debug_str     0x000000000000304e       0x55 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_str     0x0000000000003189       0x55 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
                                          0xae (size before relaxing)
- .debug_str     0x00000000000030a3       0x4d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_str     0x00000000000031de       0x4d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
                                          0xa6 (size before relaxing)
- .debug_str     0x00000000000030f0       0x8b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_str     0x000000000000322b       0x8b CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                         0x6bf (size before relaxing)
- .debug_str     0x000000000000317b       0x53 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_str     0x00000000000032b6       0x53 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
                                          0xac (size before relaxing)
- .debug_str     0x00000000000031ce       0xb7 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-                                        0x743 (size before relaxing)
- .debug_str     0x0000000000003285       0x51 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_str     0x0000000000003309       0xd5 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                                        0x761 (size before relaxing)
+ .debug_str     0x00000000000033de       0x51 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
                                          0xaa (size before relaxing)
- .debug_str     0x00000000000032d6       0x4e CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_str     0x000000000000342f       0x4e CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
                                          0xa7 (size before relaxing)
- .debug_str     0x0000000000003324      0x27d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_str     0x000000000000347d      0x27d CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
                                         0x448 (size before relaxing)
- .debug_str     0x00000000000035a1      0x2f9 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                                        0xba6 (size before relaxing)
- .debug_str     0x000000000000389a      0x2b5 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                                        0x72c (size before relaxing)
- .debug_str     0x0000000000003b4f       0xa3 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_str     0x0000000000003bf2      0x13a /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_str     0x00000000000036fa      0x348 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                                        0xbf5 (size before relaxing)
+ .debug_str     0x0000000000003a42      0x2b5 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                                        0x77b (size before relaxing)
+ .debug_str     0x0000000000003cf7       0xa3 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_str     0x0000000000003d9a      0x13a /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
                                         0x5c2 (size before relaxing)
 
-.debug_frame    0x0000000000000000     0x1858
+.debug_frame    0x0000000000000000     0x1974
  .debug_frame   0x0000000000000000       0x68 CMakeFiles/multicore_runner.dir/multicore_runner.c.obj
  .debug_frame   0x0000000000000068      0x200 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .debug_frame   0x0000000000000268       0x20 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -2774,19 +2862,19 @@ LOAD linker stubs
  .debug_frame   0x00000000000006ac      0x13c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .debug_frame   0x00000000000007e8      0x154 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .debug_frame   0x000000000000093c      0x194 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_frame   0x0000000000000ad0      0x188 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_frame   0x0000000000000c58      0x200 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_frame   0x0000000000000e58       0x78 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_frame   0x0000000000000ed0       0xdc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_frame   0x0000000000000fac      0x120 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_frame   0x00000000000010cc       0x40 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_frame   0x000000000000110c       0xa8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_frame   0x00000000000011b4       0x40 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_frame   0x00000000000011f4      0x1f4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_frame   0x00000000000013e8       0x64 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_frame   0x000000000000144c       0x2c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_frame   0x0000000000001478       0x2c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_frame   0x00000000000014a4       0x64 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_frame   0x0000000000001508      0x274 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_frame   0x000000000000177c       0xb4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_frame   0x0000000000001830       0x28 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_frame   0x0000000000000ad0      0x210 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_frame   0x0000000000000ce0      0x278 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_frame   0x0000000000000f58       0x78 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_frame   0x0000000000000fd0       0xdc CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_frame   0x00000000000010ac      0x120 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_frame   0x00000000000011cc       0x40 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_frame   0x000000000000120c       0xa8 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_frame   0x00000000000012b4       0x40 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_frame   0x00000000000012f4      0x1f4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_frame   0x00000000000014e8       0x64 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_frame   0x000000000000154c       0x2c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_frame   0x0000000000001578       0x2c CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_frame   0x00000000000015a4       0x80 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_frame   0x0000000000001624      0x274 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_frame   0x0000000000001898       0xb4 CMakeFiles/multicore_runner.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_frame   0x000000000000194c       0x28 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)

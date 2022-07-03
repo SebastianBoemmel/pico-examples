@@ -27,6 +27,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
@@ -42,6 +43,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
@@ -92,6 +95,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -124,6 +129,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -138,6 +145,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -152,6 +161,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
@@ -999,6 +1010,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/t
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h
@@ -1215,6 +1227,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/c
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
@@ -1233,6 +1246,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/c
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/include/pico/util/datetime.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: generated/pico_base/pico/config_autogen.h
@@ -1247,6 +1262,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/c
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/include/pico/util/pheap.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: generated/pico_base/pico/config_autogen.h
@@ -1284,7 +1301,9 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
@@ -1299,6 +1318,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: generated/pico_base/pico/config_autogen.h
@@ -1369,6 +1389,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/ssi.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ioqspi.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h
@@ -1431,6 +1452,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
@@ -1450,6 +1472,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h
@@ -1516,6 +1539,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
@@ -1541,6 +1565,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
@@ -1560,6 +1585,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h
@@ -1580,6 +1606,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h
@@ -1599,6 +1626,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
@@ -1613,6 +1642,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
@@ -1624,6 +1655,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h
@@ -1638,7 +1671,9 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/include/pico/time.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
@@ -1652,6 +1687,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
@@ -1666,6 +1702,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
@@ -1677,6 +1715,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_float/include/pico/float.h
@@ -1714,6 +1754,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
@@ -1730,6 +1771,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
@@ -1786,6 +1829,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/boot_stage2/include/boot_stage2/config.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -1821,6 +1866,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: generated/pico_base/pico/config_autogen.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: generated/pico_base/pico/version.h
 
@@ -1837,7 +1883,9 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
@@ -1849,6 +1897,7 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
@@ -2108,7 +2157,9 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
@@ -2126,12 +2177,14 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: generated/pico_base/pico/config_autogen.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: generated/pico_base/pico/version.h
@@ -2143,6 +2196,8 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -2164,7 +2219,9 @@ temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian
 temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
 temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
@@ -2180,6 +2237,7 @@ temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian
 temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h
 temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
 temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
 temperature/CMakeFiles/temperature.dir/temperature.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h

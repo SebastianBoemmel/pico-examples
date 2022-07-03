@@ -154,183 +154,9 @@ pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boem
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
 	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-
-pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-
 pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
 pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -343,8 +169,182 @@ pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boem
 
 pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
 pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.i
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.s
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.i
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.s
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.s
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/pio/differential_manchester && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/flags.make
 pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
@@ -607,22 +607,22 @@ pio_differential_manchester_OBJECTS = \
 "CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
 "CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
+"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
+"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
+"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
 "CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj" \
 "CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
 "CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
 "CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
 "CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
+"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
+"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
+"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
 "CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
 "CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
 "CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
 "CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
@@ -658,22 +658,22 @@ pio/differential_manchester/pio_differential_manchester.elf: pio/differential_ma
 pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/time.c.obj
 pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_util/queue.c.obj
+pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 pio/differential_manchester/pio_differential_manchester.elf: pio/differential_manchester/CMakeFiles/pio_differential_manchester.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
