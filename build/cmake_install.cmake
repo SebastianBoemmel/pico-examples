@@ -63,6 +63,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/boemmelsebastian/pico/pico-examples/build/uart/cmake_install.cmake")
   include("/home/boemmelsebastian/pico/pico-examples/build/usb/cmake_install.cmake")
   include("/home/boemmelsebastian/pico/pico-examples/build/watchdog/cmake_install.cmake")
+  include("/home/boemmelsebastian/pico/pico-examples/build/temperature/cmake_install.cmake")
 
 endif()
 

@@ -117,6 +117,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../system/hello_double_tap/CMakeLists.txt"
   "../system/narrow_io_write/CMakeLists.txt"
   "../system/unique_board_id/CMakeLists.txt"
+  "../temperature/CMakeLists.txt"
   "../timer/CMakeLists.txt"
   "../timer/hello_timer/CMakeLists.txt"
   "../timer/periodic_sampler/CMakeLists.txt"
@@ -515,6 +516,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "usb/host/host_cdc_msc_hid/CMakeFiles/CMakeDirectoryInformation.cmake"
   "watchdog/CMakeFiles/CMakeDirectoryInformation.cmake"
   "watchdog/hello_watchdog/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "temperature/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -666,4 +668,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "usb/host/tinyusb_host_examples/hid_controller/CMakeFiles/tinyusb_host_hid_controller.dir/DependInfo.cmake"
   "usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/DependInfo.cmake"
   "watchdog/hello_watchdog/CMakeFiles/hello_watchdog.dir/DependInfo.cmake"
+  "temperature/CMakeFiles/temperature.dir/DependInfo.cmake"
   )

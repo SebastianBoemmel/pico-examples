@@ -2040,6 +2040,19 @@ hello_watchdog/fast:
 	$(MAKE) $(MAKESILENT) -f watchdog/hello_watchdog/CMakeFiles/hello_watchdog.dir/build.make watchdog/hello_watchdog/CMakeFiles/hello_watchdog.dir/build
 .PHONY : hello_watchdog/fast
 
+#=============================================================================
+# Target rules for targets named temperature
+
+# Build rule for target.
+temperature: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 temperature
+.PHONY : temperature
+
+# fast build rule for target.
+temperature/fast:
+	$(MAKE) $(MAKESILENT) -f temperature/CMakeFiles/temperature.dir/build.make temperature/CMakeFiles/temperature.dir/build
+.PHONY : temperature/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2173,6 +2186,7 @@ help:
 	@echo "... spi_flash"
 	@echo "... spi_master"
 	@echo "... spi_slave"
+	@echo "... temperature"
 	@echo "... timer_lowlevel"
 	@echo "... tinyusb_dev_audio_4_channel_mic"
 	@echo "... tinyusb_dev_audio_test"

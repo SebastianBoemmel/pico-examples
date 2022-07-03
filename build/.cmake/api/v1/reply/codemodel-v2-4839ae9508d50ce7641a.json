@@ -31,7 +31,8 @@
 						172,
 						176,
 						180,
-						229
+						229,
+						231
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -2337,7 +2338,7 @@
 					"source" : "system/unique_board_id",
 					"targetIndexes" : 
 					[
-						146
+						147
 					]
 				},
 				{
@@ -2395,7 +2396,7 @@
 					"source" : "timer/timer_lowlevel",
 					"targetIndexes" : 
 					[
-						125
+						126
 					]
 				},
 				{
@@ -2453,7 +2454,7 @@
 					"source" : "uart/uart_advanced",
 					"targetIndexes" : 
 					[
-						145
+						146
 					]
 				},
 				{
@@ -2544,7 +2545,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/audio_4_channel_mic",
 					"targetIndexes" : 
 					[
-						126
+						127
 					]
 				},
 				{
@@ -2572,7 +2573,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/audio_test",
 					"targetIndexes" : 
 					[
-						127
+						128
 					]
 				},
 				{
@@ -2600,7 +2601,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/board_test",
 					"targetIndexes" : 
 					[
-						128
+						129
 					]
 				},
 				{
@@ -2628,7 +2629,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/cdc_dual_ports",
 					"targetIndexes" : 
 					[
-						129
+						130
 					]
 				},
 				{
@@ -2656,7 +2657,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/cdc_msc",
 					"targetIndexes" : 
 					[
-						130
+						131
 					]
 				},
 				{
@@ -2684,7 +2685,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/dfu",
 					"targetIndexes" : 
 					[
-						131
+						132
 					]
 				},
 				{
@@ -2712,7 +2713,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/dfu_runtime",
 					"targetIndexes" : 
 					[
-						132
+						133
 					]
 				},
 				{
@@ -2740,7 +2741,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/dynamic_configuration",
 					"targetIndexes" : 
 					[
-						133
+						134
 					]
 				},
 				{
@@ -2768,7 +2769,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/hid_composite",
 					"targetIndexes" : 
 					[
-						134
+						135
 					]
 				},
 				{
@@ -2796,7 +2797,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/hid_generic_inout",
 					"targetIndexes" : 
 					[
-						135
+						136
 					]
 				},
 				{
@@ -2824,7 +2825,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/hid_multiple_interface",
 					"targetIndexes" : 
 					[
-						136
+						137
 					]
 				},
 				{
@@ -2852,7 +2853,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/midi_test",
 					"targetIndexes" : 
 					[
-						137
+						138
 					]
 				},
 				{
@@ -2880,7 +2881,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/msc_dual_lun",
 					"targetIndexes" : 
 					[
-						138
+						139
 					]
 				},
 				{
@@ -2918,7 +2919,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/uac2_headset",
 					"targetIndexes" : 
 					[
-						139
+						140
 					]
 				},
 				{
@@ -2946,7 +2947,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/usbtmc",
 					"targetIndexes" : 
 					[
-						140
+						141
 					]
 				},
 				{
@@ -2974,7 +2975,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/video_capture",
 					"targetIndexes" : 
 					[
-						141
+						142
 					]
 				},
 				{
@@ -3002,7 +3003,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/device/webusb_serial",
 					"targetIndexes" : 
 					[
-						142
+						143
 					]
 				},
 				{
@@ -3099,7 +3100,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/host/cdc_msc_hid",
 					"targetIndexes" : 
 					[
-						143
+						144
 					]
 				},
 				{
@@ -3127,7 +3128,7 @@
 					"source" : "/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/examples/host/hid_controller",
 					"targetIndexes" : 
 					[
-						144
+						145
 					]
 				},
 				{
@@ -3180,6 +3181,20 @@
 					"targetIndexes" : 
 					[
 						44
+					]
+				},
+				{
+					"build" : "temperature",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "temperature",
+					"targetIndexes" : 
+					[
+						125
 					]
 				}
 			],
@@ -3312,7 +3327,8 @@
 						221,
 						228,
 						229,
-						230
+						230,
+						231
 					],
 					"name" : "pico_examples",
 					"targetIndexes" : 
@@ -3440,8 +3456,9 @@
 						123,
 						124,
 						125,
-						145,
-						146
+						126,
+						146,
+						147
 					]
 				},
 				{
@@ -3567,7 +3584,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						126
+						127
 					]
 				},
 				{
@@ -3580,7 +3597,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						127
+						128
 					]
 				},
 				{
@@ -3593,7 +3610,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						128
+						129
 					]
 				},
 				{
@@ -3606,7 +3623,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						129
+						130
 					]
 				},
 				{
@@ -3619,7 +3636,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						130
+						131
 					]
 				},
 				{
@@ -3632,7 +3649,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						131
+						132
 					]
 				},
 				{
@@ -3645,7 +3662,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						132
+						133
 					]
 				},
 				{
@@ -3658,7 +3675,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						133
+						134
 					]
 				},
 				{
@@ -3671,7 +3688,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						134
+						135
 					]
 				},
 				{
@@ -3684,7 +3701,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						135
+						136
 					]
 				},
 				{
@@ -3697,7 +3714,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						136
+						137
 					]
 				},
 				{
@@ -3710,7 +3727,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						137
+						138
 					]
 				},
 				{
@@ -3723,7 +3740,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						138
+						139
 					]
 				},
 				{
@@ -3736,7 +3753,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						139
+						140
 					]
 				},
 				{
@@ -3749,7 +3766,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						140
+						141
 					]
 				},
 				{
@@ -3762,7 +3779,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						141
+						142
 					]
 				},
 				{
@@ -3775,7 +3792,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						142
+						143
 					]
 				},
 				{
@@ -3802,7 +3819,7 @@
 					"parentIndex" : 20,
 					"targetIndexes" : 
 					[
-						143
+						144
 					]
 				},
 				{
@@ -3815,7 +3832,7 @@
 					"parentIndex" : 20,
 					"targetIndexes" : 
 					[
-						144
+						145
 					]
 				}
 			],
@@ -4694,6 +4711,13 @@
 					"id" : "spi_slave::@93d3772f517ae48899b6",
 					"jsonFile" : "target-spi_slave-Debug-22c6a2e1fb1f9633e435.json",
 					"name" : "spi_slave",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 231,
+					"id" : "temperature::@a29df1dd503240efa4d7",
+					"jsonFile" : "target-temperature-Debug-99d5a92f1b051763a166.json",
+					"name" : "temperature",
 					"projectIndex" : 0
 				},
 				{

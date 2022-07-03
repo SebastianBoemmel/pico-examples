@@ -607,3 +607,6 @@
 /home/boemmelsebastian/pico/pico-examples/build/watchdog/hello_watchdog/CMakeFiles/rebuild_cache.dir
 /home/boemmelsebastian/pico/pico-examples/build/watchdog/hello_watchdog/CMakeFiles/edit_cache.dir
 /home/boemmelsebastian/pico/pico-examples/build/watchdog/hello_watchdog/CMakeFiles/hello_watchdog.dir
+/home/boemmelsebastian/pico/pico-examples/build/temperature/CMakeFiles/rebuild_cache.dir
+/home/boemmelsebastian/pico/pico-examples/build/temperature/CMakeFiles/edit_cache.dir
+/home/boemmelsebastian/pico/pico-examples/build/temperature/CMakeFiles/temperature.dir
