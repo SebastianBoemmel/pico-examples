@@ -1,23 +1,24 @@
-/**
- * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
+// test
+#include <stdio.h>
+#include <stdlib.h>
 
-#include "pico/stdlib.h"
 
-int main() {
-#ifndef PICO_DEFAULT_LED_PIN
-#warning blink example requires a board with a regular LED
-#else
-    const uint LED_PIN = PICO_DEFAULT_LED_PIN;
-    gpio_init(LED_PIN);
-    gpio_set_dir(LED_PIN, GPIO_OUT);
-    while (true) {
-        gpio_put(LED_PIN, 1);
-        sleep_ms(1500);
-        gpio_put(LED_PIN, 0);
-        sleep_ms(1500);
+int main(void){
+/*
+    stdio_init_all();
+
+    // Configure ADC
+    adc_init();
+    adc_set_temp_sensor_enabled(true);
+    adc_select_input(4);
+
+    while(1){
+    uint16_t raw = adc_read();
+    const float conversion_factor = 3.3f / (1<<12);
+    float result = raw * conversion_factor;
+    float temp = 27 - (result -0.706)/0.001721;
+    printf("Temp = %f C\n", temp);
+    sleep_ms(1000);
     }
-#endif
+*/
 }

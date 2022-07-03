@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/boemmelsebastian/pico/pico-examples/blink/blink.c
+stdio.h
+-
 pico/stdlib.h
 /home/boemmelsebastian/pico/pico-examples/blink/pico/stdlib.h
 

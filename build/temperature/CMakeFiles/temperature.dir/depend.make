@@ -916,36 +916,4 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: ../temperature/temperature.cpp
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/boards/include/boards/pico.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/config.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/error.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_base/include/pico/types.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/common/pico_time/include/pico/time.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: generated/pico_base/pico/config_autogen.h
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: generated/pico_base/pico/version.h
 
