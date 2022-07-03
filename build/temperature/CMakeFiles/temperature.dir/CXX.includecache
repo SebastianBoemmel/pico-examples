@@ -6,9 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/boemmelsebastian/pico/pico-examples/temperature/temperature.cpp
-stdio.h
--
-stdlib.h
--
-

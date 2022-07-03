@@ -76,18 +76,18 @@ include temperature/CMakeFiles/temperature.dir/progress.make
 # Include the compile flags for this target's objects.
 include temperature/CMakeFiles/temperature.dir/flags.make
 
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: temperature/CMakeFiles/temperature.dir/flags.make
-temperature/CMakeFiles/temperature.dir/temperature.cpp.obj: ../temperature/temperature.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object temperature/CMakeFiles/temperature.dir/temperature.cpp.obj"
-	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/temperature.dir/temperature.cpp.obj -c /home/boemmelsebastian/pico/pico-examples/temperature/temperature.cpp
+temperature/CMakeFiles/temperature.dir/temperature.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/temperature.c.obj: ../temperature/temperature.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object temperature/CMakeFiles/temperature.dir/temperature.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/temperature.c.obj -c /home/boemmelsebastian/pico/pico-examples/temperature/temperature.c
 
-temperature/CMakeFiles/temperature.dir/temperature.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/temperature.dir/temperature.cpp.i"
-	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boemmelsebastian/pico/pico-examples/temperature/temperature.cpp > CMakeFiles/temperature.dir/temperature.cpp.i
+temperature/CMakeFiles/temperature.dir/temperature.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/temperature.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-examples/temperature/temperature.c > CMakeFiles/temperature.dir/temperature.c.i
 
-temperature/CMakeFiles/temperature.dir/temperature.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/temperature.dir/temperature.cpp.s"
-	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boemmelsebastian/pico/pico-examples/temperature/temperature.cpp -o CMakeFiles/temperature.dir/temperature.cpp.s
+temperature/CMakeFiles/temperature.dir/temperature.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/temperature.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-examples/temperature/temperature.c -o CMakeFiles/temperature.dir/temperature.c.s
 
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
 temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -586,9 +586,334 @@ temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/r
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
 	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: temperature/CMakeFiles/temperature.dir/flags.make
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 # Object files for target temperature
 temperature_OBJECTS = \
-"CMakeFiles/temperature.dir/temperature.cpp.obj" \
+"CMakeFiles/temperature.dir/temperature.c.obj" \
 "CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
@@ -633,12 +958,37 @@ temperature_OBJECTS = \
 "CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
+"CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 
 # External object files for target temperature
 temperature_EXTERNAL_OBJECTS =
 
-temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/temperature.cpp.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/temperature.c.obj
 temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -684,10 +1034,35 @@ temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmel
 temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/build.make
 temperature/temperature.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 temperature/temperature.elf: temperature/CMakeFiles/temperature.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable temperature.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/boemmelsebastian/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Linking CXX executable temperature.elf"
 	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/temperature.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-objcopy -Oihex /home/boemmelsebastian/pico/pico-examples/build/temperature/temperature.elf temperature.hex
 	cd /home/boemmelsebastian/pico/pico-examples/build/temperature && /usr/bin/arm-none-eabi-objcopy -Obinary /home/boemmelsebastian/pico/pico-examples/build/temperature/temperature.elf temperature.bin

@@ -1,10 +1,10 @@
 // test
 #include <stdio.h>
-#include <stdlib.h>
-
+#include "pico/stdlib.h"
+#include "hardware/gpio.h"
+#include "hardware/adc.h"
 
 int main(void){
-/*
     stdio_init_all();
 
     // Configure ADC
@@ -20,5 +20,4 @@ int main(void){
     printf("Temp = %f C\n", temp);
     sleep_ms(1000);
     }
-*/
 }

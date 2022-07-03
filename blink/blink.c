@@ -14,7 +14,6 @@ int main() {
 stdio_init_all();
 gpio_init(25);
 gpio_set_dir(25, GPIO_OUT);
-const uint LED_PIN = PICO_DEFAULT_LED_PIN;
 
 char userInput;
 while (1)
@@ -23,10 +22,10 @@ while (1)
     userInput = getchar();
 
     if(userInput == '1'){
-        gpio_put(LED_PIN, 1);
+        gpio_put(25, 1);
         printf("LED AN\n");
     }else if (userInput == '0'){
-        gpio_put(LED_PIN, 0);
+        gpio_put(25, 0);
         printf("LED AUS\n");
     }else {
         printf("Invalid Input!\n");
