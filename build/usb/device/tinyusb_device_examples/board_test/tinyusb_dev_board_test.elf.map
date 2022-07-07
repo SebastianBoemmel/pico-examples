@@ -1448,9 +1448,9 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0xa8 CMakeFiles/tinyusb_dev_board_test.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/tinyusb_dev_board_test.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccXxckKJ.o
- .data          0x0000000000000000        0x0 /tmp/ccXxckKJ.o
- .bss           0x0000000000000000        0x0 /tmp/ccXxckKJ.o
+ .text          0x0000000000000000        0x0 /tmp/cctC3aqZ.o
+ .data          0x0000000000000000        0x0 /tmp/cctC3aqZ.o
+ .bss           0x0000000000000000        0x0 /tmp/cctC3aqZ.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o)
@@ -1714,7 +1714,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccXxckKJ.o
+ .boot2         0x0000000010000000      0x100 /tmp/cctC3aqZ.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2682,7 +2682,7 @@ LOAD CMakeFiles/tinyusb_dev_board_test.dir/home/boemmelsebastian/pico/pico-sdk/l
 LOAD CMakeFiles/tinyusb_dev_board_test.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD CMakeFiles/tinyusb_dev_board_test.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/tinyusb_dev_board_test.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-LOAD /tmp/ccXxckKJ.o
+LOAD /tmp/cctC3aqZ.o
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2777,7 +2777,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000000000005ce       0x2c CMakeFiles/tinyusb_dev_board_test.dir/home/boemmelsebastian/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .ARM.attributes
-                0x00000000000005fa       0x22 /tmp/ccXxckKJ.o
+                0x00000000000005fa       0x22 /tmp/cctC3aqZ.o
  .ARM.attributes
                 0x000000000000061c       0x1e /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

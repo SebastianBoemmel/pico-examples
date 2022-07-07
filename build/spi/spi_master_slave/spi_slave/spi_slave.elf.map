@@ -1150,9 +1150,9 @@ Discarded input sections
                 0x0000000000000000       0x3a CMakeFiles/spi_slave.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .time_critical.spi_read16_blocking
                 0x0000000000000000       0x3c CMakeFiles/spi_slave.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .text          0x0000000000000000        0x0 /tmp/cc5K29qF.o
- .data          0x0000000000000000        0x0 /tmp/cc5K29qF.o
- .bss           0x0000000000000000        0x0 /tmp/cc5K29qF.o
+ .text          0x0000000000000000        0x0 /tmp/ccYhYhs1.o
+ .data          0x0000000000000000        0x0 /tmp/ccYhYhs1.o
+ .bss           0x0000000000000000        0x0 /tmp/ccYhYhs1.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o)
@@ -1416,7 +1416,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/cc5K29qF.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccYhYhs1.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2347,7 +2347,7 @@ LOAD CMakeFiles/spi_slave.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common
 LOAD CMakeFiles/spi_slave.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/spi_slave.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 LOAD CMakeFiles/spi_slave.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-LOAD /tmp/cc5K29qF.o
+LOAD /tmp/ccYhYhs1.o
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2442,7 +2442,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000000000005c4       0x2c CMakeFiles/spi_slave.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .ARM.attributes
-                0x00000000000005f0       0x22 /tmp/cc5K29qF.o
+                0x00000000000005f0       0x22 /tmp/ccYhYhs1.o
  .ARM.attributes
                 0x0000000000000612       0x1e /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

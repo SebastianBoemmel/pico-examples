@@ -1183,9 +1183,9 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0xb4 CMakeFiles/uart_advanced.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/uart_advanced.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x0000000000000000        0x0 /tmp/cczGlaCp.o
- .data          0x0000000000000000        0x0 /tmp/cczGlaCp.o
- .bss           0x0000000000000000        0x0 /tmp/cczGlaCp.o
+ .text          0x0000000000000000        0x0 /tmp/ccbGJJY8.o
+ .data          0x0000000000000000        0x0 /tmp/ccbGJJY8.o
+ .bss           0x0000000000000000        0x0 /tmp/ccbGJJY8.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o)
@@ -1449,7 +1449,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/cczGlaCp.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccbGJJY8.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2325,7 +2325,7 @@ LOAD CMakeFiles/uart_advanced.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_co
 LOAD CMakeFiles/uart_advanced.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/uart_advanced.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/uart_advanced.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD /tmp/cczGlaCp.o
+LOAD /tmp/ccbGJJY8.o
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2414,7 +2414,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000000000000054a       0x2c CMakeFiles/uart_advanced.dir/home/boemmelsebastian/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x0000000000000576       0x22 /tmp/cczGlaCp.o
+                0x0000000000000576       0x22 /tmp/ccbGJJY8.o
  .ARM.attributes
                 0x0000000000000598       0x1e /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
